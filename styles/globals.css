@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 h2 {
-  @apply text-4xl font-bold text-center mb-10;
+  @apply text-4xl font-bold text-center mb-10 text-subtitle;
 }
 
 p {
