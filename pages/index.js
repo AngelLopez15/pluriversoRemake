@@ -23,23 +23,25 @@ export default function Home() {
         </section>
         <section>
           <h2>Ejes temáticos</h2>
-          <div>
-            <h3>Identidad</h3>
-          </div>
-          <div>
-            <h3>Interculturalidad</h3>
-          </div>
-          <div>
-            <h3>Interculturalismo</h3>
-          </div>
-          <div>
-            <h3>Interseccionalidad</h3>
-          </div>
-          <div>
-            <h3>Multiculturalismo</h3>
-          </div>
-          <div>
-            <h3>Multiculturalidad</h3>
+          <div class="grid grid-flow-col grid-cols-3 grid-rows-2 gap-4">
+            <div className="flex justify-center items-center w-full h-32 bg-red-300 rounded-lg">
+              <h3 className="text-white text-3xl">Identidad</h3>
+            </div>
+            <div className="flex justify-center items-center w-full h-32 bg-blue-300 rounded-lg">
+              <h3 className="text-white text-3xl">Interculturalidad</h3>
+            </div>
+            <div className="flex justify-center items-center w-full h-32 bg-green-300 rounded-lg">
+              <h3 className="text-white text-3xl">Interculturalismo</h3>
+            </div>
+            <div className="flex justify-center items-center w-full h-32 bg-yellow-300 rounded-lg">
+              <h3 className="text-white text-3xl">Interseccionalidad</h3>
+            </div>
+            <div className="flex justify-center items-center w-full h-32 bg-pink-300 rounded-lg">
+              <h3 className="text-white text-3xl">Multiculturalismo</h3>
+            </div>
+            <div className="flex justify-center items-center w-full h-32 bg-purple-300 rounded-lg">
+              <h3 className="text-white text-3xl">Multiculturalidad</h3>
+            </div>
           </div>
         </section>
         <section>

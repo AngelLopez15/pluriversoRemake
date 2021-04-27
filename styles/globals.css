@@ -9,3 +9,7 @@ h2 {
 p {
   @apply mb-6;
 }
+
+section {
+  @apply py-10;
+}
