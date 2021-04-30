@@ -1,4 +1,53 @@
 export default function audiovisuales() {
+
+  const videoConceptos = [
+    {
+      id: '1',
+      imagen: '/images/portadas/Thumb_Juana.png',
+      titulo: 'Dra. Juana Martínez Reséndiz',
+    },
+    {
+      id: '2',
+      imagen: '/images/portadas/Thumb_Agueda.png',
+      titulo: 'Dra. Águeda Suárez Gómez',
+    },
+    {
+      id: '3',
+      imagen: '/images/portadas/Thumb_Ishita.png',
+      titulo: 'Dra. Ishita Benerjee Dube',
+    },
+    {
+      id: '4',
+      imagen: '/images/portadas/Thumb_Ambrosio.png',
+      titulo: 'Dr. Ambrosio Velasco Gómez',
+    },
+    {
+      id: '5',
+      imagen: '/images/portadas/Thumb_Nati.png',
+      titulo: 'Dra. Natividad Guierrez Chong',
+    },
+    {
+      id: '6',
+      imagen: '/images/portadas/Thumb_Hernan.png',
+      titulo: 'Dr. Hernan Salas Quintanal',
+    },
+    {
+      id: '7',
+      imagen: '/images/portadas/Thumb_Gilberto.png',
+      titulo: 'Dr. Gilberto Giménez',
+    },
+    {
+      id: '8',
+      imagen: '/images/portadas/Thumb_estudiosa.png',
+      titulo: 'Congreso Internacional de Estudios Afromexicanos',
+    },
+    {
+      id: '9',
+      imagen: '/images/portadas/Thumb_aniv.png',
+      titulo: '10° Aniversario de la Licenciatura en Desarrollo y Gestión Interculturales',
+    },
+  ]
+
   return (
     <>
       <header>
@@ -17,6 +66,16 @@ export default function audiovisuales() {
         </section>
         <section>
           <h2>Conceptos fundamentales</h2>
+          <div>
+            {
+              videoConceptos.map((item) => (
+                <div key={item.id}>
+                  <img src={item.imagen} alt={item.titulo} />
+                  <h3>{item.titulo}</h3>
+                </div>
+              ))
+            }
+          </div>
         </section>
       </main>
     </>
