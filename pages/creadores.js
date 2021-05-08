@@ -9,11 +9,11 @@ export default function creadores() {
       <main>
         <section>
           <h2>Integrantes</h2>
-          <div>
+          <div className="flex flex-wrap justify-center">
             {
               integrantes.map((item) => (
                 <Integrante
-                  key={item.id} 
+                  key={item.id}
                   {...item}
                 />
               ))

@@ -23,7 +23,7 @@ export default function Home() {
         </section>
         <section>
           <h2>Ejes temáticos</h2>
-          <div class="grid grid-flow-col grid-cols-3 grid-rows-2 gap-4">
+          <div className="grid grid-flow-col grid-cols-3 grid-rows-2 gap-4">
             <div className="flex justify-center items-center w-full h-32 bg-red-300 rounded-lg">
               <h3 className="text-white text-3xl">Identidad</h3>
             </div>

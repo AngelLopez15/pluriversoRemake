@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function audiovisuales() {
 
   const videoConceptos = [
@@ -5,46 +7,74 @@ export default function audiovisuales() {
       id: '1',
       imagen: '/images/portadas/Thumb_Juana.png',
       titulo: 'Dra. Juana Martínez Reséndiz',
+      link: '240200996'
     },
     {
       id: '2',
       imagen: '/images/portadas/Thumb_Agueda.png',
       titulo: 'Dra. Águeda Suárez Gómez',
+      link: '237015245',
     },
     {
       id: '3',
       imagen: '/images/portadas/Thumb_Ishita.png',
       titulo: 'Dra. Ishita Benerjee Dube',
+      link: '244273683',
     },
     {
       id: '4',
       imagen: '/images/portadas/Thumb_Ambrosio.png',
       titulo: 'Dr. Ambrosio Velasco Gómez',
+      link: '245258990',
     },
     {
       id: '5',
       imagen: '/images/portadas/Thumb_Nati.png',
       titulo: 'Dra. Natividad Guierrez Chong',
+      link: '286946031',
     },
     {
       id: '6',
       imagen: '/images/portadas/Thumb_Hernan.png',
       titulo: 'Dr. Hernan Salas Quintanal',
+      link: '240227564',
     },
     {
       id: '7',
       imagen: '/images/portadas/Thumb_Gilberto.png',
       titulo: 'Dr. Gilberto Giménez',
+      link: '286160963',
     },
     {
       id: '8',
       imagen: '/images/portadas/Thumb_estudiosa.png',
       titulo: 'Congreso Internacional de Estudios Afromexicanos',
+      link: '237013901',
     },
     {
       id: '9',
       imagen: '/images/portadas/Thumb_aniv.png',
       titulo: '10° Aniversario de la Licenciatura en Desarrollo y Gestión Interculturales',
+      link: '312660416',
+    },
+  ]
+
+  // const videoExperiencias = [
+  //   {},
+  //   {},
+  //   {},
+  // ]
+
+  const videoExpresiones = [
+    {
+      id: '1',
+      imagen: '/images/portadas/Thumb_aniv.png',
+      titulo: '10° Aniversario de la Licenciatura en Desarrollo y Gestión Interculturales',
+    },
+    {
+      id: '2',
+      imagen: '/images/portadas/Thumb_estudiosa.png',
+      titulo: 'Congreso Internacional de Estudios Afromexicanos',
     },
   ]
 
@@ -66,10 +96,32 @@ export default function audiovisuales() {
         </section>
         <section>
           <h2>Conceptos fundamentales</h2>
-          <div>
+          <div className="flex flex-wrap justify-center">
             {
               videoConceptos.map((item) => (
-                <div key={item.id}>
+                <div key={item.id} className="mx-8 mb-8 w-96">
+                  <img src={item.imagen} alt={item.titulo} />
+                  <h3>{item.titulo}</h3>
+                  <Link href={`/video/${item.link}`}>
+                    <a>Ver video</a>
+                  </Link>
+                </div>
+              ))
+            }
+          </div>
+        </section>
+        <section>
+          <h2>Experiencias</h2>
+          <div className="flex flex-wrap justify-center">
+
+          </div>
+        </section>
+        <section>
+          <h2>Expresiones</h2>
+          <div className="flex flex-wrap justify-center">
+            {
+              videoExpresiones.map((item) => (
+                <div key={item.id} className="mx-8 mb-8 w-96">
                   <img src={item.imagen} alt={item.titulo} />
                   <h3>{item.titulo}</h3>
                 </div>
