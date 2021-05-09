@@ -59,22 +59,45 @@ export default function audiovisuales() {
     },
   ]
 
-  // const videoExperiencias = [
-  //   {},
-  //   {},
-  //   {},
-  // ]
+  const videoExperiencias = [
+    {
+      id: '1',
+      imagen: '/images/portadas/Thumb_interseccionalidad.png',
+      titulo: 'Interseccionalidad',
+      link: '288278952',
+    },
+    {
+      id: '2',
+      imagen: '/images/portadas/Thumb_interculturalidad.png',
+      titulo: 'Interculturalidad',
+      link: '291798756',
+    },
+    {
+      id: '3',
+      imagen: '/images/portadas/Thumb_identidad.png',
+      titulo: 'Identidad',
+      link: '310243050',
+    },
+  ]
 
   const videoExpresiones = [
     {
       id: '1',
       imagen: '/images/portadas/Thumb_aniv.png',
       titulo: '10° Aniversario de la Licenciatura en Desarrollo y Gestión Interculturales',
+      link: '312660416',
     },
     {
       id: '2',
       imagen: '/images/portadas/Thumb_estudiosa.png',
       titulo: 'Congreso Internacional de Estudios Afromexicanos',
+      link: '237013901',
+    },
+    {
+      id: '3',
+      imagen: '/images/portadas/Thumb_marcha.png',
+      titulo: 'Marcha LGBTTIQ+ 2017',
+      link: '312657634',
     },
   ]
 
@@ -99,12 +122,16 @@ export default function audiovisuales() {
           <div className="flex flex-wrap justify-center">
             {
               videoConceptos.map((item) => (
-                <div key={item.id} className="mx-8 mb-8 w-96">
-                  <img src={item.imagen} alt={item.titulo} />
-                  <h3>{item.titulo}</h3>
-                  <Link href={`/video/${item.link}`}>
-                    <a>Ver video</a>
-                  </Link>
+                <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg">
+                  <div className="flex justify-center">
+                    <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
+                  </div>
+                  <h3 className="text-xl font-semibold text-center my-8 text-blue-900">{item.titulo}</h3>
+                  <div className="flex justify-center mb-8">
+                    <Link href={`/video/${item.link}`}>
+                      <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300">Ver video</a>
+                    </Link>
+                  </div>
                 </div>
               ))
             }
@@ -113,7 +140,23 @@ export default function audiovisuales() {
         <section>
           <h2>Experiencias</h2>
           <div className="flex flex-wrap justify-center">
-
+            <div className="flex flex-wrap justify-center">
+              {
+                videoExperiencias.map((item) => (
+                  <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg">
+                    <div className="flex justify-center">
+                      <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
+                    </div>
+                    <h3 className="text-xl font-semibold text-center my-8 text-blue-900">{item.titulo}</h3>
+                    <div className="flex justify-center mb-8">
+                      <Link href={`/video/${item.link}`}>
+                        <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300">Ver video</a>
+                      </Link>
+                    </div>
+                  </div>
+                ))
+              }
+            </div>
           </div>
         </section>
         <section>
@@ -121,9 +164,16 @@ export default function audiovisuales() {
           <div className="flex flex-wrap justify-center">
             {
               videoExpresiones.map((item) => (
-                <div key={item.id} className="mx-8 mb-8 w-96">
-                  <img src={item.imagen} alt={item.titulo} />
-                  <h3>{item.titulo}</h3>
+                <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg">
+                  <div className="flex justify-center">
+                    <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
+                  </div>
+                  <h3 className="text-xl font-semibold text-center my-8 text-blue-900">{item.titulo}</h3>
+                  <div className="flex justify-center mb-8">
+                    <Link href={`/video/${item.link}`}>
+                      <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300">Ver video</a>
+                    </Link>
+                  </div>
                 </div>
               ))
             }
