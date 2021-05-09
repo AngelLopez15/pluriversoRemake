@@ -122,7 +122,7 @@ export default function audiovisuales() {
           <div className="flex flex-wrap justify-center">
             {
               videoConceptos.map((item) => (
-                <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg">
+                <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <div className="flex justify-center">
                     <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
                   </div>
@@ -143,7 +143,7 @@ export default function audiovisuales() {
             <div className="flex flex-wrap justify-center">
               {
                 videoExperiencias.map((item) => (
-                  <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg">
+                  <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1">
                     <div className="flex justify-center">
                       <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
                     </div>
@@ -164,7 +164,7 @@ export default function audiovisuales() {
           <div className="flex flex-wrap justify-center">
             {
               videoExpresiones.map((item) => (
-                <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg">
+                <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <div className="flex justify-center">
                     <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
                   </div>

@@ -1,62 +1,72 @@
 [
   {
     "id": "1",
-    "nombre":"Natividad Gutiérrez Chong.",
+    "foto":"/images/integrantes/natividad.png",
+    "nombre":"Natividad Gutiérrez Chong",
     "descripcion":"Fundadora y responsable del proyecto. Doctora en Sociología por la London School of Economics and Political Science. Investigadora titular del Instituto de Investigaciones Sociales de la Universidad Nacional Autónoma de México.",
     "correo":"nati.gutierrez.chong@gmail.com"
   },
   {
     "id": "2",
+    "foto":"/images/integrantes/denisse.png",
     "nombre":"Denisse Sandoval Ramírez",
     "descripcion":"Licenciada en Ciencias de la Comunicación por la Facultad de Ciencias Políticas y Sociales de la UNAM, con especialidad en Comunicación Política con una tesis sobre subjetividades políticas y el EZLN. He laborado en el periódico El Universal y en Gaceta UNAM, y he colaborado en las revistas digitales El Soma y Ala Izquierda. Me desempeñé como asistente de investigación en el Instituto de Investigaciones Sociales de la UNAM durante cuatro años, colaborando en distintos proyectos académicos. Actualmente trabajo como comunicóloga independiente en diversos medios. Mis intereses versan sobre la investigación académica, periodística y el ámbito literario y editorial.",
     "correo":"denisse.sanram@gmail.com"
   },
   {
     "id": "3",
+    "foto":"/images/integrantes/irina.png",
     "nombre":"Irina Viridiana Calderón Gálvez",
-    "descripcion":"Soy estudiante en proceso de titulación de Diseño y Comunicación Visual en la Facultad de Artes y Diseño. Colaboro en el proyecto Jóvenes de identidades diversas en dinámicas metropolitanas, mi proyecto de titulación consistirá en material didáctico como apoyo a la enseñanza del náhuatl. Mis intereses varían desde  la ilustración, la animación y el diseño (entre algunas otras subramas del área), a las lenguas orientales e indígenas mexicanas, así como la actualidad de las culturas vivas de nuestro país en general, razón por la cual como diseñadora, prefiero enfocarme en todo proyecto que tenga que ver con el diseño social.",
+    "descripcion":"Licenciada en Diseño y Comunicación Visual en la Facultad de Artes y Diseño. Colaboro en el proyecto Jóvenes de identidades diversas en dinámicas metropolitanas, mi proyecto de titulación consistirá en material didáctico como apoyo a la enseñanza del náhuatl. Mis intereses varían desde  la ilustración, la animación y el diseño (entre algunas otras subramas del área), a las lenguas orientales e indígenas mexicanas, así como la actualidad de las culturas vivas de nuestro país en general, razón por la cual como diseñadora, prefiero enfocarme en todo proyecto que tenga que ver con el diseño social.",
     "correo":"irinavcg@gmail.com"
   },
   {
     "id": "4",
+    "foto":"/images/integrantes/perla.png",
     "nombre":"Perla Berenice Castrejón Román",
     "descripcion":"Licenciada en la Desarrollo y Gestión Interculturales con pre-especialización en mediación social intercultural por la Facultad de Filosofía y Letras de la UNAM. Actualmente formo parte de la campaña  No Hate Speech Movement (México).  Mis temas de interés y de trabajo versan sobre las contraculturas urbanas y el espacio público, juventudes e infancias, territorio, discurso de odio en redes sociales y ciberbullying.",
     "correo":"castrejonunam96@gmail.com"
   },
   {
     "id": "5",
+    "foto":"/images/integrantes/leslie.png",
     "nombre":"Leslie Cruz Páez",
-    "descripcion":" Lic. En Ciencias de la Comunicación con especialidad en Producción Audiovisual por la Facultad de Ciencias Políticas y Sociales. Mi principal gusto e interés radica en narrar historias de corte documental. He cursado diplomados y talleres en animación (UNAM), operación de cámara (SEP) y periodismo (Periódico Reforma) que me han permitido dar mayor sentido al vínculo teórico-práctico a mi profesión. Cuento con cinco años de experiencia como realizadora audiovisual, editora, productora y coordinadora de proyectos de manera independiente y para varios medios (Reforma, Milenio, TeleFórmula, JugoTV), productoras audiovisuales (Mexicano Films, Santas Producciones, Mente Fresca) e Instituciones (UNAM). Actualmente, formo parte del proyecto Jóvenes de identidades diversas en dinámicas metropolitanas (CONACYT).",
+    "descripcion":"Licenciada en Ciencias de la Comunicación con especialidad en Producción Audiovisual por la Facultad de Ciencias Políticas y Sociales. Mi principal gusto e interés radica en narrar historias de corte documental. He cursado diplomados y talleres en animación (UNAM), operación de cámara (SEP) y periodismo (Periódico Reforma) que me han permitido dar mayor sentido al vínculo teórico-práctico a mi profesión. Cuento con cinco años de experiencia como realizadora audiovisual, editora, productora y coordinadora de proyectos de manera independiente y para varios medios (Reforma, Milenio, TeleFórmula, JugoTV), productoras audiovisuales (Mexicano Films, Santas Producciones, Mente Fresca) e Instituciones (UNAM). Actualmente, formo parte del proyecto Jóvenes de identidades diversas en dinámicas metropolitanas (CONACYT).",
     "correo":"lesliecruzpaez@gmail.com"
   },
   {
     "id": "6",
+    "foto":"/images/integrantes/monse.png",
     "nombre":"María Monserrat González Gómez",
     "descripcion":"Licenciada en Desarrollo y Gestión Interculturales con pre-especialización en Ciencia, Tecnología y Sociedad por la Facultad de Filosofía y Letras de la UNAM. Actualmente formo parte del proyecto Jóvenes de identidades diversas en dinámicas metropolitanas (CONACYT). Mis temas de interés versan sobre  proyectos de revitalización de lenguas originarias en México y su vinculación con la educación.",
     "correo":"glezmonserrat96@gmail.com"
   },
   {
     "id": "7",
+    "foto":"/images/integrantes/mariana.png",
     "nombre":"Mariana Morales Morales",
     "descripcion":"Licenciada en Desarrollo y Gestión Interculturales con pre-especialización en gestión del patrimonio cultural por la Facultad de Filosofía y Letras de la UNAM.  Desde hace un año me desempeño como asistente de investigación en la Dirección de Estudios Históricos del Instituto Nacional de Antropología e Historia (INAH) y soy coordinadora del Comité Universitario Estudiantil a favor de Proyecto Habesha en la UNAM. Mis temas de interés versan sobre la crisis de refugiados, derechos humanos, migración, construcción de identidades (cultura del hip hop/rap como medio de expresión y socialización en América Latina, Europa y África).",
     "correo":"marianamorales394@gmail.com"
   },
   {
     "id": "8",
+    "foto":"/images/integrantes/amarildo.png",
     "nombre":"Amarildo Figueroa Valencio",
     "descripcion":"Licenciado en Sociología por la Facultad de Ciencias Políticas y Sociales de la UNAM. Mis líneas de investigación son desarrollo, desigualdad social e identidades. Asimismo, formo parte del seminario sobre Descolonialidad del poder. Actualmente, participo en proyectos de literatura zapoteca, en el Sistema de Consulta de Organizaciones Indígenas y Conflictos Étnicos en las Américas (SICETNO), en el proyecto CONACYT Jóvenes de identidades diversas en dinámicas metropolitanas, y en la Plataforma digital sobre diversidad cultural en México.",
     "correo":"amarildofigueroa@gmail.com"
   },
   {
     "id": "9",
+    "foto":"/images/integrantes/miguel.png",
     "nombre":"Miguel Ángel Vivas",
     "descripcion":"Licenciado en Desarrollo y Gestión Interculturales, FFyL-UNAM. Algunos  temas que encuentro interesantes y que son necesarios discutirlos, giran en torno al racismo en México -principalmente “la identidad nacional mexicana”- , apropiación cultural e interculturalidad crítica.",
     "correo":"miguelavcavc@gmail.com"
   },
   {
     "id": "10",
+    "foto":"/images/integrantes/angel.png",
     "nombre":"Angel Octavio López Cruz",
-    "descripcion":"Ingeniero en computación por la Facultad de Ingeniería de la UNAM. Me desempeño como Desarrollador Web especializado en Frontend y como Diseñador UX/UI. PArtice en la creación de los sitios SICETNO, Juventidades y Pluriverso, proyectos hermanos gestionados por la Dr. Natividad Gutiérrez",
+    "descripcion":"Ingeniero en computación por la Facultad de Ingeniería de la UNAM. Me desempeño como Desarrollador Web especializado en Frontend y como Diseñador UX/UI. Participé en la creación de los sitios web de SICETNO, Juventidades y Pluriverso, proyectos hermanos gestionados por la Dr. Natividad Gutiérrez",
     "correo": "a.o.lopez.cruz@gmail.com",
     "links": ["https://www.sicetno.org/", "https://juventidades.sociales.unam.mx/"]
   }

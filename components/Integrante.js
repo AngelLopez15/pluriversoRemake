@@ -1,22 +1,22 @@
-export default function Integrante({ nombre, descripcion, correo, links }) {
+export default function Integrante({foto, nombre, descripcion, correo, links }) {
   return (
-    <figure className="w-96 bg-green-100 shadow-xl rounded-xl p-2 m-8">
-      {/* <img class="w-32 h-32 rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512" /> */}
+    <figure className="w-96 bg-blue-50 shadow-xl rounded-xl p-2 m-8 hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+      <img class="w-32 h-32 rounded-full mx-auto" src={foto} alt={nombre} width="384" height="512" />
       <div className="pt-6 text-center space-y-4">
         <blockquote className="overflow-y-auto h-60">
-          <p>
+          <p className="text-gray-900 font-medium">
             {descripcion}
           </p>
           {
-            links && <ul className="flex justify-center"><li className="mx-2"><a href={links[0]}>SICETNO</a></li><li className="mx-2"><a href={links[1]}>Juventidades</a></li></ul>
+            links && <ul className="flex justify-center"><li className="mx-2"><a className="font-medium text-subtitle" href={links[0]} target="_blank" rel="noopener noreferrer">SICETNO</a></li><li className="mx-2"><a className="font-medium text-action" href={links[1]} target="_blank" rel="noopener noreferrer">Juventidades</a></li></ul>
           }
         </blockquote>
         <figcaption>
-          <div className="text-lg font-semibold">
-            <h3>{nombre}</h3>
+          <div>
+            <h3 className="text-2xl font-bold">{nombre}</h3>
           </div>
-          <div className="text-blue-800">
-            <p>{correo}</p>
+          <div>
+            <p className="text-blue-800">{correo}</p>
           </div>
         </figcaption>
       </div>
