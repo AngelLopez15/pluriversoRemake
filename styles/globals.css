@@ -13,3 +13,8 @@ p {
 section {
   @apply py-10;
 }
+
+.imagen-fondo {
+  background-image: url(/images/home/homeCover.png);
+  background-size: cover;
+}
