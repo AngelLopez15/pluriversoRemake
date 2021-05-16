@@ -1,5 +1,5 @@
 // import Head from 'next/head'
-// import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -74,6 +74,22 @@ export default function Home() {
         </section>
         <section>
           <h2>Investigación audiovisual</h2>
+          <div className="flex justify-around mb-20">
+            <div className="mx-8 w-96">
+              <img className="w-full rounded-lg" src="/images/portadas/Thumb_Juana.png" alt="Dra. Juana Martínez Reséndiz" />
+            </div>
+            <div className="mx-8 w-96">
+              <img className="w-full rounded-lg" src="/images/portadas/Thumb_Hernan.png" alt="Dr. Hernan Salas Quintanal" />
+            </div>
+            <div className="mx-8 w-96">
+              <img className="w-full rounded-lg" src="/images/portadas/Thumb_aniv.png" alt="10° Aniversario de la Licenciatura en Desarrollo y Gestión Interculturales" />
+            </div>
+          </div>
+          <div className="text-center">
+            <Link href="/audiovisuales">
+              <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300">Ir a la sección de videos</a>
+            </Link>
+          </div>
         </section>
         <section>
           <h2>Hecho en</h2>
