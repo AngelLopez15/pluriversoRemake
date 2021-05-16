@@ -27,7 +27,12 @@ export default function video() {
             <div className="flex justify-center items-center">
               <div className="w-3/4">
                 <p className="text-xl font-semibold"><span className="font-extrabold text-subtitle">Palabras clave:</span> {informacion.palabras}</p>
-                <p className="text-lg">{informacion.texto}</p>
+                <p className="font-medium text-lg text-gray-700">{informacion.texto}</p>
+                <div className="flex justify-center mb-8">
+                  <Link href="/audiovisuales">
+                    <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300">Regresar a la galeria de videos</a>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

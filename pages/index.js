@@ -17,7 +17,38 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <main>
+      <main className="mx-12">
+        <section>
+          <h2>Acerca de Pluriverso</h2>
+          <div className="flex w-full mb-12">
+            <div className="w-1/3">
+              <img className="rounded-xl" src="/images/home/imagenHome2.webp" alt="pintura muralista de la UNAM" />
+            </div>
+            <div className="flex w-2/3 items-center px-12">
+              <p className="font-medium text-xl text-gray-700">La Plataforma Digital sobre Estudios de la Diversidad Cultural en México, a la que hemos llamado Pluriverso DIGITAL, es un Proyecto financiado por el Programa de Apoyo a Proyectos para la Innovación y Mejoramiento de la Enseñanza PAPIME PE404617, abarca seis ejes relacionados con el estudio de las culturas, la era del reconocimiento a minorías, y las políticas públicas. Estos ejes son: identidad, interseccionalidad, interculturalidad, interculturalismo, multiculturalidad y multiculturalismo.</p>
+            </div>
+          </div>
+          <div className="flex w-full mb-12">
+            <div className="flex w-2/3 items-center px-12">
+              <p className="font-medium text-xl text-gray-700">Pluriverso DIGITAL es una herramienta digital que ofrece un panorama de la complejidad de la cultura y sus interconexiones de esos seis conceptos o ejes. Cada uno de estos incluye un mapa mental, bibliografía, imágenes y vídeos. En la elaboración de Pluriverso DIGITAL han participado egresados de la Licenciatura en Gestión y Desarrollo Intercultural, de la Facultad de Filosofía y Letras, quienes han contribuido con su experiencia y creatividad. En tanto que cada eje tuvo su propio abordaje, se incluyen los testimonios metodológicos de sus autores.</p>
+            </div>
+            <div className="w-1/3">
+              <img className="rounded-xl" src="/images/home/imagenHome1.webp" alt="pintura muralista de la UNAM" />
+            </div>
+          </div>
+          <div className="flex w-full">
+            <div className="w-1/3">
+              <img className="rounded-xl" src="/images/home/imagenHome3.webp" alt="pintura muralista de la UNAM" />
+            </div>
+            <div className="flex w-2/3 items-center px-12">
+              <div>
+                <p className="font-medium text-xl text-gray-700">La Licenciatura en Gestión y Desarrollo Intercultural, se imparte en la Facultad de Filosofía y Letras, en el Centro Peninsular en Humanidades en Ciencias Sociales y en la Escuela Nacional de Estudios Superiores Unidad León.</p>
+                <p className="font-medium text-xl text-gray-700">La Dra. Natividad Gutiérrez Chong, investigadora del Instituto de Investigaciones Sociales, y profesora de la Licenciatura en Gestión y Desarrollo Intercultural, es la responsable y coordinadora de esta obra conjunta.</p>
+                <p className="font-medium text-xl text-gray-700">Pluriverso Digital habrá de incorporarse a la RUA (Red Universitaria de Aprendizaje). Esta plataforma está hecha en la Universidad Nacional Autónoma de México.</p>
+              </div>
+            </div>
+          </div>
+        </section>
         <div className="flex w-full h-screen justify-center items-center relative my-24">
           <div className="w-96 p-4 bg-green-100 rounded-lg shadow-xl absolute top-0">
             <p className="font-medium text-justify mb-0">Celebramos el emeritazgo del profesor Gilberto Giménez, brillante teórico de las culturas y las identidades.</p>
@@ -41,34 +72,27 @@ export default function Home() {
             <p className="font-medium text-justify mb-0">Nuestra experiencia creativa ha sido la interdisciplinariedad aplicada al estudio de la diversidad cultural.</p>
           </div>
         </div>
-        <section>
-          <h2>Acerca de Pluriverso</h2>
-          <p>La Plataforma Digital sobre Estudios de la Diversidad Cultural en México, a la que hemos llamado Pluriverso DIGITAL, es un Proyecto financiado por el Programa de Apoyo a Proyectos para la Innovación y Mejoramiento de la Enseñanza PAPIME PE404617, abarca seis ejes relacionados con el estudio de las culturas, la era del reconocimiento a minorías, y las políticas públicas. Estos ejes son: identidad, interseccionalidad, interculturalidad, interculturalismo, multiculturalidad y multiculturalismo.</p>
-          <p>Pluriverso DIGITAL es una herramienta digital que ofrece un panorama de la complejidad de la cultura y sus interconexiones de esos seis conceptos o ejes. Cada uno de estos incluye un mapa mental, bibliografía, imágenes y vídeos. En la elaboración de Pluriverso DIGITAL han participado egresados de la Licenciatura en Gestión y Desarrollo Intercultural, de la Facultad de Filosofía y Letras, quienes han contribuido con su experiencia y creatividad. En tanto que cada eje tuvo su propio abordaje, se incluyen los testimonios metodológicos de sus autores.</p>
-          <p>La Licenciatura en Gestión y Desarrollo Intercultural, se imparte en la Facultad de Filosofía y Letras, en el Centro Peninsular en Humanidades en Ciencias Sociales y en la Escuela Nacional de Estudios Superiores Unidad León.</p>
-          <p>La Dra. Natividad Gutiérrez Chong, investigadora del Instituto de Investigaciones Sociales, y profesora de la Licenciatura en Gestión y Desarrollo Intercultural, es la responsable y coordinadora de esta obra conjunta.</p>
-          <p>Pluriverso Digital habrá de incorporarse a la RUA (Red Universitaria de Aprendizaje). Esta plataforma está hecha en la Universidad Nacional Autónoma de México.</p>
-        </section>
+        <div className="imagen-paralax w-full"></div>
         <section id="ejes">
           <h2>Ejes temáticos</h2>
           <div className="grid grid-flow-col grid-cols-3 grid-rows-2 gap-4">
-            <div className="flex justify-center items-center w-full h-32 bg-red-300 rounded-lg">
-              <h3 className="text-white text-3xl">Identidad</h3>
+            <div className="flex justify-center items-center w-full h-80 bg-red-500 rounded-lg">
+              <h3 className="text-white text-3xl font-extrabold">Identidad</h3>
             </div>
-            <div className="flex justify-center items-center w-full h-32 bg-blue-300 rounded-lg">
-              <h3 className="text-white text-3xl">Interculturalidad</h3>
+            <div className="flex justify-center items-center w-full h-80 bg-blue-500 rounded-lg">
+              <h3 className="text-white text-3xl font-extrabold">Interculturalidad</h3>
             </div>
-            <div className="flex justify-center items-center w-full h-32 bg-green-300 rounded-lg">
-              <h3 className="text-white text-3xl">Interculturalismo</h3>
+            <div className="flex justify-center items-center w-full h-80 bg-green-500 rounded-lg">
+              <h3 className="text-white text-3xl font-extrabold">Interculturalismo</h3>
             </div>
-            <div className="flex justify-center items-center w-full h-32 bg-yellow-300 rounded-lg">
-              <h3 className="text-white text-3xl">Interseccionalidad</h3>
+            <div className="flex justify-center items-center w-full h-80 bg-yellow-500 rounded-lg">
+              <h3 className="text-white text-3xl font-extrabold">Interseccionalidad</h3>
             </div>
-            <div className="flex justify-center items-center w-full h-32 bg-pink-300 rounded-lg">
-              <h3 className="text-white text-3xl">Multiculturalismo</h3>
+            <div className="flex justify-center items-center w-full h-80 bg-pink-500 rounded-lg">
+              <h3 className="text-white text-3xl font-extrabold">Multiculturalismo</h3>
             </div>
-            <div className="flex justify-center items-center w-full h-32 bg-purple-300 rounded-lg">
-              <h3 className="text-white text-3xl">Multiculturalidad</h3>
+            <div className="flex justify-center items-center w-full h-80 bg-purple-500 rounded-lg">
+              <h3 className="text-white text-3xl font-extrabold">Multiculturalidad</h3>
             </div>
           </div>
         </section>
@@ -93,7 +117,15 @@ export default function Home() {
         </section>
         <section>
           <h2>Hecho en</h2>
-          <p>Hecho en México por la Universidad Nacional Autónoma de México (UNAM), 2019. Plataforma Digital sobre estudios de la diversidad cultural en México Pluriverso Digital, financiado por PAPIME y llevado a cabo en el Instituto de Investigaciones Sociales (IIS- UNAM) con total apego a lo dispuesto en el Acuerdo por el que se establecen los Lineamientos Generales para la Política de Acceso Abierto de la Universidad Nacional Autónoma de México, la Legislación Universitaria, la Ley Federal de Derechos de Autor y cualquier otro ordenamiento en materia de propiedad intelectual aplicable.</p>
+          <p className="font-medium text-xl text-gray-700">Hecho en México por la Universidad Nacional Autónoma de México (UNAM), 2019. Plataforma Digital sobre estudios de la diversidad cultural en México Pluriverso Digital, financiado por PAPIME y llevado a cabo en el Instituto de Investigaciones Sociales (IIS- UNAM) con total apego a lo dispuesto en el Acuerdo por el que se establecen los Lineamientos Generales para la Política de Acceso Abierto de la Universidad Nacional Autónoma de México, la Legislación Universitaria, la Ley Federal de Derechos de Autor y cualquier otro ordenamiento en materia de propiedad intelectual aplicable.</p>
+          <div className="flex justify-center">
+            <div className="w-60 mx-10">
+              <img className="w-full rounded-lg" src="/images/home/unam.svg" alt="Logo UNAM" />
+            </div>
+            <div className="flex items-center w-96 mx-10">
+              <img src="/images/home/logo_iis_horizontal.png" alt="Logo UNAM" />
+            </div>
+          </div>
         </section>
       </main>
     </div>

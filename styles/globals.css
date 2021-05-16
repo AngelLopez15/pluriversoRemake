@@ -18,3 +18,33 @@ section {
   background-image: url(/images/home/homeCover.png);
   background-size: cover;
 }
+
+body {
+  background-color: #f4f4f4;
+}
+
+.imagen-paralax {
+  height: 34rem;
+  background-image: url(/images/home/homeParalax.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.imagen-fondo-pluriverso {
+  background-image: url(/images/cover/pluriverso2.webp);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.imagen-fondo-creadores {
+  background-image: url(/images/cover/creadores.webp);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.imagen-fondo-videos {
+  background-image: url(/images/cover/videos.webp);
+  background-size: contain;
+  background-attachment: fixed;
+}
