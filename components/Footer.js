@@ -30,25 +30,25 @@ export default function Footer() {
       <div>
         <ul className="flex w-full justify-evenly py-4">
           <li>
-            <p>Instituto de Investigaciones Sociales</p>
+            <p className="font-medium text-lg text-gray-700">Instituto de Investigaciones Sociales</p>
           </li>
           <li>
-            <a href="tel:5556227400"><p>5556227400 ext. 280</p></a>
+            <a href="tel:5556227400"><p className="font-medium text-lg text-gray-700">5556227400 ext. 280</p></a>
           </li>
           <li>
-            <a href="mailto:pluriversodigital@unam.mx"><p>pluriversodigital@unam.mx</p></a>
+            <a href="mailto:pluriversodigital@unam.mx"><p className="font-medium text-lg text-gray-700">pluriversodigital@unam.mx</p></a>
           </li>
         </ul>
       </div>
       <div className="flex w-full justify-around">
         <div>
-          <p>©PAPIME Clave PE404617. Todos los derechos reservados. {onlyYear}</p>
+          <p className="font-medium text-lg text-gray-700">©PAPIME Clave PE404617. Todos los derechos reservados. {onlyYear}</p>
         </div>
         <div>
-          <p>Manual de Usuario</p>
+          <p className="font-medium text-lg text-gray-700">Manual de Usuario</p>
         </div>
         <div>
-          <p>Términos y condiciones</p>
+          <p className="font-medium text-lg text-gray-700">Términos y condiciones</p>
         </div>
       </div>
     </footer>

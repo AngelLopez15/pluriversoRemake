@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useState } from 'react'
 
 export default function Navbar() {
 
@@ -63,6 +64,12 @@ export default function Navbar() {
     },
   ]
 
+  const [ejesToggle, setEjesToggle] = useState(false)
+
+  const toggleEjes = () => {
+    setEjesToggle(!ejesToggle)
+  }
+
   return (
     <nav className="flex w-full justify-between p-4 shadow-xl sticky top-0 z-10 bg-blue-100">
       <div>
@@ -74,13 +81,13 @@ export default function Navbar() {
       </div>
       <div className="self-center">
         <ul className="flex justify-end w-full">
-          <li className="px-4 font-semibold text-xl cursor-pointer">
+          <li className="px-4 font-semibold text-xl cursor-pointer" onMouseEnter={toggleEjes} onMouseLeave={toggleEjes}>
             Ejes
-            <ul className="absolute bg-red-100 rounded-lg hidden">
+            <ul className={ ejesToggle ? 'absolute bg-red-100 rounded-lg' : 'absolute bg-red-100 rounded-lg hidden'}>
               {
                 ejes.map((item) => (
                   <li key={item.id} className="p-2">
-                    <Link href={`/${item.link}`}>
+                    <Link href={`/ejes/${item.link}`}>
                       <a>{item.title}</a>
                     </Link>
                   </li>

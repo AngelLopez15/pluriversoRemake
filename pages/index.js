@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div>
+    <>
       {/* <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -77,22 +77,46 @@ export default function Home() {
           <h2>Ejes temáticos</h2>
           <div className="grid grid-flow-col grid-cols-3 grid-rows-2 gap-4">
             <div className="flex justify-center items-center w-full h-80 bg-red-500 rounded-lg">
-              <h3 className="text-white text-3xl font-extrabold">Identidad</h3>
+              <Link href="/ejes/identidad">
+                <a>
+                  <h3 className="text-white text-3xl font-extrabold">Identidad</h3>
+                </a>
+              </Link>
             </div>
             <div className="flex justify-center items-center w-full h-80 bg-blue-500 rounded-lg">
-              <h3 className="text-white text-3xl font-extrabold">Interculturalidad</h3>
+              <Link href="/ejes/interculturalidad">
+                <a>
+                  <h3 className="text-white text-3xl font-extrabold">Interculturalidad</h3>
+                </a>
+              </Link>
             </div>
             <div className="flex justify-center items-center w-full h-80 bg-green-500 rounded-lg">
-              <h3 className="text-white text-3xl font-extrabold">Interculturalismo</h3>
+              <Link href="/ejes/interculturalismo">
+                <a>
+                  <h3 className="text-white text-3xl font-extrabold">Interculturalismo</h3>
+                </a>
+              </Link>
             </div>
             <div className="flex justify-center items-center w-full h-80 bg-yellow-500 rounded-lg">
-              <h3 className="text-white text-3xl font-extrabold">Interseccionalidad</h3>
+              <Link href="/ejes/interseccionalidad">
+                <a>
+                  <h3 className="text-white text-3xl font-extrabold">Interseccionalidad</h3>
+                </a>
+              </Link>
             </div>
             <div className="flex justify-center items-center w-full h-80 bg-pink-500 rounded-lg">
-              <h3 className="text-white text-3xl font-extrabold">Multiculturalismo</h3>
+              <Link href="/ejes/multiculturalismo">
+                <a>
+                  <h3 className="text-white text-3xl font-extrabold">Multiculturalismo</h3>
+                </a>
+              </Link>
             </div>
             <div className="flex justify-center items-center w-full h-80 bg-purple-500 rounded-lg">
-              <h3 className="text-white text-3xl font-extrabold">Multiculturalidad</h3>
+              <Link href="/ejes/multiculturalidad">
+                <a>
+                  <h3 className="text-white text-3xl font-extrabold">Multiculturalidad</h3>
+                </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -128,6 +152,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-    </div>
+    </>
   )
 }
