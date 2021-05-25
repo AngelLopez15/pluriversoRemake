@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "ficha": "Carneiro, Sueli (2011). Racismo, Sexismo e Desigualdade no Brasil. Brasil: Selo Negro.",
+    "disponibilidad": "Disponible en Amazon",
+    "palabras": "racismo, sexismo y desigualdad en Brasil"
+  },
+  {
+    "id": "2",
+    "ficha": "Y. Davis, Angela (1999). Blues Legacies and Black Feminism: Gertrude 'Ma' Rainey, Bessie Smith, and Billie Holiday",
+    "disponibilidad": "Disponible en Amazon",
+    "palabras": "mujer, raza, clase, feminismo negro"
+  },
+  {
+    "id": "3",
+    "ficha": "Hooks, Bell (2017). El feminismo es para todo el mundo. Madrid: Traficante de Sueños.",
+    "disponibilidad": "Disponible en traficantes.net",
+    "palabras": "Política feminista, raza y género, educación feminista, política sexual feminista,derechos reproductivos"
+  },
+  {
+    "id": "4",
+    "ficha": "Federici, Silvia (2004-2010). Calibán y la bruja: mujeres, cuerpo y acumulación primitiva. Madrid: Traficante de Sueños.",
+    "disponibilidad": "Disponible en traficantes.net",
+    "palabras": "Caza de burjas en europa, colonización, patriarcado, libertad y división social"
+  },
+  {
+    "id": "5",
+    "ficha": "Wynter, Sylvia (2009). “En torno al principio sociogénico. Fanon, la identidad y el rompecabezas de la experiencia consciente y cómo es ser «negro»” en Frantz Fanon Piel Negra, Máscaras blancas. Madrid: Ediciones Akal.",
+    "disponibilidad": "---",
+    "palabras": "Racismo, colonialismo, conciencia negra, black power,liberación nacional de África y Asia."
+  },
+  {
+    "id": "6",
+    "ficha": "Sandoval, Chela (2004). 'Nuevas ciencias. Feminismo cyborg y metodología de los oprimidos' en Bell Hooks, Avtar Brah, Gloria Anzaldúa (coords.) Otras Inapropiables. Feminismo desde la frontera, Madrid, Traficante de Sueños.",
+    "disponibilidad": "Disponible en traficantes.net",
+    "palabras": "Ciudadanía excluyentes, feminismo cyborg, metodología de los oprimidos"
+  },
+  {
+    "id": "7",
+    "ficha": "Lugones, María (2008). 'Colonialidad y Género'. Tabula Raza, no. 9. Julio-Diciembre.",
+    "disponibilidad": "Disponible en Redalyc",
+    "palabras": "feminismo de color, colonialidad del género, interseccionalidad, intersexualidad, Sistema Moderno/Colonial de Género."
+  },
+  {
+    "id": "8",
+    "ficha": "Carbin, M. y Edenheim, S. (2013). 'The intersectional turn in feminist theory: A dream of a common language?'. European Journal of Women's Studies.",
+    "disponibilidad": "Disponible en Sage Journals",
+    "palabras": "Teoría feminista, genealogía, interseccionalidad, teoría poscolonial, postestructuralismo."
+  },
+  {
+    "id": "9",
+    "ficha": "Puar, Jasbir K. (2013). ‘I would rather be a cyborg than a goddess’ Intersectionality, Assemblage, and Affective Politics. Meritum, vol. 8, no. 2. Julio-Diciembre.",
+    "disponibilidad": "Disponible en European Institute for Progressive Cultural Policies (eipcp.net)",
+    "palabras": "transformación política, ensamblaje, interseccionalidad"
+  }
+]

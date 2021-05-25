@@ -13,8 +13,6 @@ export default function video() {
 
   const informacion = infovideo.find(buscarInformacion);
 
-  console.log(informacion)
-
   return (
     <main className="max-h-full">
       {
