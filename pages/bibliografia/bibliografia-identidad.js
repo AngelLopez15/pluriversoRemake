@@ -12,7 +12,6 @@ import LF from '../../data/identidad/identidadLF.json'
 
 
 export default function bibliografiaIdentida() {
-
   return (
     <main>
       <h1>Bibliografía Identidad</h1>
