@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function multiculturalidad() {
   return (
     <>
-      <header className="w-full text-center py-24 imagen-fondo-identidad">
+      <header className="w-full text-center py-24 imagen-fondo-pluriverso">
         <h1 className="text-7xl text-white font-bold">Multiculturalidad</h1>
       </header>
       <main className="mx-12">

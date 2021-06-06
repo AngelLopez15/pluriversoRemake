@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function interseccionalidad() {
   return (
     <>
-      <header className="w-full text-center py-24 imagen-fondo-identidad">
+      <header className="w-full text-center py-24 imagen-fondo-pluriverso">
         <h1 className="text-7xl text-white font-bold">Interseccionalidad</h1>
       </header>
       <main className="mx-12">

@@ -13,220 +13,224 @@ import LF from '../../data/identidad/identidadLF.json'
 
 export default function bibliografiaIdentida() {
   return (
-    <main>
-      <h1>Bibliografía Identidad</h1>
-      <Tabs>
-        <TabList>
-          <Tab>Psicología</Tab>
-          <Tab>Epidemología</Tab>
-          <Tab>Sociología</Tab>
-          <Tab>Filosofía</Tab>
-          <Tab>Antropología</Tab>
-          <Tab>Antropología Social</Tab>
-          <Tab>Estudios y Políticas Culturales</Tab>
-          <Tab>Lingüística y Feminismo</Tab>
-        </TabList>
-        <TabPanel>
-          <section>
-            <h2>Psicología</h2>
-            <table className="table-fixed border-collapse border border-green-800">
-              <thead>
-                <tr>
-                  <th className="w-1/2 border border-green-600">Ficha y autor</th>
-                  <th className="w-1/4 border border-green-600">Disponibilidad</th>
-                  <th className="w-1/4 border border-green-600">Palabra clave</th>
-                </tr>
-              </thead>
-              <tbody>
-                {
-                  Psicologia.map((item) => (
-                    <tr key={item.id}>
-                      <td className="border border-green-600">{item.ficha}</td>
-                      <td className="border border-green-600">{item.disponibilidad}</td>
-                      <td className="border border-green-600">{item.palabras}</td>
-                    </tr>
-                  ))
-                }
-              </tbody>
-            </table>
-          </section>
-        </TabPanel>
-        <TabPanel>
-          <section>
-            <h2>Epidemología</h2>
-            <table className="table-fixed border-collapse border border-green-800">
-              <thead>
-                <tr>
-                  <th className="w-1/2 border border-green-600">Ficha y autor</th>
-                  <th className="w-1/4 border border-green-600">Disponibilidad</th>
-                  <th className="w-1/4 border border-green-600">Palabra clave</th>
-                </tr>
-              </thead>
-              <tbody>
-                {
-                  Epidemologia.map((item) => (
-                    <tr key={item.id}>
-                      <td className="border border-green-600">{item.ficha}</td>
-                      <td className="border border-green-600">{item.disponibilidad}</td>
-                      <td className="border border-green-600">{item.palabras}</td>
-                    </tr>
-                  ))
-                }
-              </tbody>
-            </table>
-          </section>
-        </TabPanel>
-        <TabPanel>
-          <section>
-            <h2>Sociología</h2>
-            <table className="table-fixed border-collapse border border-green-800">
-              <thead>
-                <tr>
-                  <th className="w-1/2 border border-green-600">Ficha y autor</th>
-                  <th className="w-1/4 border border-green-600">Disponibilidad</th>
-                  <th className="w-1/4 border border-green-600">Palabra clave</th>
-                </tr>
-              </thead>
-              <tbody>
-                {
-                  Sociologia.map((item) => (
-                    <tr key={item.id}>
-                      <td className="border border-green-600">{item.ficha}</td>
-                      <td className="border border-green-600">{item.disponibilidad}</td>
-                      <td className="border border-green-600">{item.palabras}</td>
-                    </tr>
-                  ))
-                }
-              </tbody>
-            </table>
-          </section>
-        </TabPanel>
-        <TabPanel>
-          <section>
-            <h2>Filosofía</h2>
-            <table className="table-fixed border-collapse border border-green-800">
-              <thead>
-                <tr>
-                  <th className="w-1/2 border border-green-600">Ficha y autor</th>
-                  <th className="w-1/4 border border-green-600">Disponibilidad</th>
-                  <th className="w-1/4 border border-green-600">Palabra clave</th>
-                </tr>
-              </thead>
-              <tbody>
-                {
-                  Filosofia.map((item) => (
-                    <tr key={item.id}>
-                      <td className="border border-green-600">{item.ficha}</td>
-                      <td className="border border-green-600">{item.disponibilidad}</td>
-                      <td className="border border-green-600">{item.palabras}</td>
-                    </tr>
-                  ))
-                }
-              </tbody>
-            </table>
-          </section>
-        </TabPanel>
-        <TabPanel>
-          <section>
-            <h2>Antropoligía</h2>
-            <table className="table-fixed border-collapse border border-green-800">
-              <thead>
-                <tr>
-                  <th className="w-1/2 border border-green-600">Ficha y autor</th>
-                  <th className="w-1/4 border border-green-600">Disponibilidad</th>
-                  <th className="w-1/4 border border-green-600">Palabra clave</th>
-                </tr>
-              </thead>
-              <tbody>
-                {
-                  Antropologia.map((item) => (
-                    <tr key={item.id}>
-                      <td className="border border-green-600">{item.ficha}</td>
-                      <td className="border border-green-600">{item.disponibilidad}</td>
-                      <td className="border border-green-600">{item.palabras}</td>
-                    </tr>
-                  ))
-                }
-              </tbody>
-            </table>
-          </section>
-        </TabPanel>
-        <TabPanel>
-          <section>
-            <h2>Antropoligía Social</h2>
-            <table className="table-fixed border-collapse border border-green-800">
-              <thead>
-                <tr>
-                  <th className="w-1/2 border border-green-600">Ficha y autor</th>
-                  <th className="w-1/4 border border-green-600">Disponibilidad</th>
-                  <th className="w-1/4 border border-green-600">Palabra clave</th>
-                </tr>
-              </thead>
-              <tbody>
-                {
-                  ASocial.map((item) => (
-                    <tr key={item.id}>
-                      <td className="border border-green-600">{item.ficha}</td>
-                      <td className="border border-green-600">{item.disponibilidad}</td>
-                      <td className="border border-green-600">{item.palabras}</td>
-                    </tr>
-                  ))
-                }
-              </tbody>
-            </table>
-          </section>
-        </TabPanel>
-        <TabPanel>
-          <section>
-            <h2>Estudios y Políticas Culturales</h2>
-            <table className="table-fixed border-collapse border border-green-800">
-              <thead>
-                <tr>
-                  <th className="w-1/2 border border-green-600">Ficha y autor</th>
-                  <th className="w-1/4 border border-green-600">Disponibilidad</th>
-                  <th className="w-1/4 border border-green-600">Palabra clave</th>
-                </tr>
-              </thead>
-              <tbody>
-                {
-                  EPC.map((item) => (
-                    <tr key={item.id}>
-                      <td className="border border-green-600">{item.ficha}</td>
-                      <td className="border border-green-600">{item.disponibilidad}</td>
-                      <td className="border border-green-600">{item.palabras}</td>
-                    </tr>
-                  ))
-                }
-              </tbody>
-            </table>
-          </section>
-        </TabPanel>
-        <TabPanel>
-          <section>
-            <h2>Lingüística y Feminismo</h2>
-            <table className="table-fixed border-collapse border border-green-800">
-              <thead>
-                <tr>
-                  <th className="w-1/2 border border-green-600">Ficha y autor</th>
-                  <th className="w-1/4 border border-green-600">Disponibilidad</th>
-                  <th className="w-1/4 border border-green-600">Palabra clave</th>
-                </tr>
-              </thead>
-              <tbody>
-                {
-                  LF.map((item) => (
-                    <tr key={item.id}>
-                      <td className="border border-green-600">{item.ficha}</td>
-                      <td className="border border-green-600">{item.disponibilidad}</td>
-                      <td className="border border-green-600">{item.palabras}</td>
-                    </tr>
-                  ))
-                }
-              </tbody>
-            </table>
-          </section>
-        </TabPanel>
-      </Tabs>
-    </main>
+    <>
+      <header className="w-full text-center py-24 imagen-fondo-pluriverso">
+        <h1 className="text-7xl text-white font-bold">Bibliografía Identidad</h1>
+      </header>
+      <main className="mx-12 mt-6">
+        <Tabs>
+          <TabList>
+            <Tab>Psicología</Tab>
+            <Tab>Epidemología</Tab>
+            <Tab>Sociología</Tab>
+            <Tab>Filosofía</Tab>
+            <Tab>Antropología</Tab>
+            <Tab>Antropología Social</Tab>
+            <Tab>Estudios y Políticas Culturales</Tab>
+            <Tab>Lingüística y Feminismo</Tab>
+          </TabList>
+          <TabPanel>
+            <section>
+              <h2>Psicología</h2>
+              <table className="table-fixed border-collapse border border-green-800">
+                <thead>
+                  <tr>
+                    <th className="w-1/2 border border-green-600">Ficha y autor</th>
+                    <th className="w-1/4 border border-green-600">Disponibilidad</th>
+                    <th className="w-1/4 border border-green-600">Palabra clave</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {
+                    Psicologia.map((item) => (
+                      <tr key={item.id}>
+                        <td className="border border-green-600">{item.ficha}</td>
+                        <td className="border border-green-600">{item.disponibilidad}</td>
+                        <td className="border border-green-600">{item.palabras}</td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </section>
+          </TabPanel>
+          <TabPanel>
+            <section>
+              <h2>Epidemología</h2>
+              <table className="table-fixed border-collapse border border-green-800">
+                <thead>
+                  <tr>
+                    <th className="w-1/2 border border-green-600">Ficha y autor</th>
+                    <th className="w-1/4 border border-green-600">Disponibilidad</th>
+                    <th className="w-1/4 border border-green-600">Palabra clave</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {
+                    Epidemologia.map((item) => (
+                      <tr key={item.id}>
+                        <td className="border border-green-600">{item.ficha}</td>
+                        <td className="border border-green-600">{item.disponibilidad}</td>
+                        <td className="border border-green-600">{item.palabras}</td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </section>
+          </TabPanel>
+          <TabPanel>
+            <section>
+              <h2>Sociología</h2>
+              <table className="table-fixed border-collapse border border-green-800">
+                <thead>
+                  <tr>
+                    <th className="w-1/2 border border-green-600">Ficha y autor</th>
+                    <th className="w-1/4 border border-green-600">Disponibilidad</th>
+                    <th className="w-1/4 border border-green-600">Palabra clave</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {
+                    Sociologia.map((item) => (
+                      <tr key={item.id}>
+                        <td className="border border-green-600">{item.ficha}</td>
+                        <td className="border border-green-600">{item.disponibilidad}</td>
+                        <td className="border border-green-600">{item.palabras}</td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </section>
+          </TabPanel>
+          <TabPanel>
+            <section>
+              <h2>Filosofía</h2>
+              <table className="table-fixed border-collapse border border-green-800">
+                <thead>
+                  <tr>
+                    <th className="w-1/2 border border-green-600">Ficha y autor</th>
+                    <th className="w-1/4 border border-green-600">Disponibilidad</th>
+                    <th className="w-1/4 border border-green-600">Palabra clave</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {
+                    Filosofia.map((item) => (
+                      <tr key={item.id}>
+                        <td className="border border-green-600">{item.ficha}</td>
+                        <td className="border border-green-600">{item.disponibilidad}</td>
+                        <td className="border border-green-600">{item.palabras}</td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </section>
+          </TabPanel>
+          <TabPanel>
+            <section>
+              <h2>Antropoligía</h2>
+              <table className="table-fixed border-collapse border border-green-800">
+                <thead>
+                  <tr>
+                    <th className="w-1/2 border border-green-600">Ficha y autor</th>
+                    <th className="w-1/4 border border-green-600">Disponibilidad</th>
+                    <th className="w-1/4 border border-green-600">Palabra clave</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {
+                    Antropologia.map((item) => (
+                      <tr key={item.id}>
+                        <td className="border border-green-600">{item.ficha}</td>
+                        <td className="border border-green-600">{item.disponibilidad}</td>
+                        <td className="border border-green-600">{item.palabras}</td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </section>
+          </TabPanel>
+          <TabPanel>
+            <section>
+              <h2>Antropoligía Social</h2>
+              <table className="table-fixed border-collapse border border-green-800">
+                <thead>
+                  <tr>
+                    <th className="w-1/2 border border-green-600">Ficha y autor</th>
+                    <th className="w-1/4 border border-green-600">Disponibilidad</th>
+                    <th className="w-1/4 border border-green-600">Palabra clave</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {
+                    ASocial.map((item) => (
+                      <tr key={item.id}>
+                        <td className="border border-green-600">{item.ficha}</td>
+                        <td className="border border-green-600">{item.disponibilidad}</td>
+                        <td className="border border-green-600">{item.palabras}</td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </section>
+          </TabPanel>
+          <TabPanel>
+            <section>
+              <h2>Estudios y Políticas Culturales</h2>
+              <table className="table-fixed border-collapse border border-green-800">
+                <thead>
+                  <tr>
+                    <th className="w-1/2 border border-green-600">Ficha y autor</th>
+                    <th className="w-1/4 border border-green-600">Disponibilidad</th>
+                    <th className="w-1/4 border border-green-600">Palabra clave</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {
+                    EPC.map((item) => (
+                      <tr key={item.id}>
+                        <td className="border border-green-600">{item.ficha}</td>
+                        <td className="border border-green-600">{item.disponibilidad}</td>
+                        <td className="border border-green-600">{item.palabras}</td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </section>
+          </TabPanel>
+          <TabPanel>
+            <section>
+              <h2>Lingüística y Feminismo</h2>
+              <table className="table-fixed border-collapse border border-green-800">
+                <thead>
+                  <tr>
+                    <th className="w-1/2 border border-green-600">Ficha y autor</th>
+                    <th className="w-1/4 border border-green-600">Disponibilidad</th>
+                    <th className="w-1/4 border border-green-600">Palabra clave</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {
+                    LF.map((item) => (
+                      <tr key={item.id}>
+                        <td className="border border-green-600">{item.ficha}</td>
+                        <td className="border border-green-600">{item.disponibilidad}</td>
+                        <td className="border border-green-600">{item.palabras}</td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </section>
+          </TabPanel>
+        </Tabs>
+      </main>
+    </>
   )
 }

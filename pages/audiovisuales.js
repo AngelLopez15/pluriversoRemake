@@ -53,7 +53,7 @@ export default function audiovisuales() {
     },
     {
       id: '9',
-      imagen: '/images/portadas/Thumb_aniv.png',
+      imagen: '/images/portadas/aniv.png',
       titulo: '10° Aniversario de la Licenciatura en Desarrollo y Gestión Interculturales',
       link: '312660416',
     },
@@ -83,7 +83,7 @@ export default function audiovisuales() {
   const videoExpresiones = [
     {
       id: '1',
-      imagen: '/images/portadas/Thumb_aniv.png',
+      imagen: '/images/portadas/aniv.png',
       titulo: '10° Aniversario de la Licenciatura en Desarrollo y Gestión Interculturales',
       link: '312660416',
     },
@@ -104,7 +104,7 @@ export default function audiovisuales() {
   return (
     <>
       <header className="w-full text-center py-24 imagen-fondo-videos">
-        <h1 className="text-7xl text-white font-bold">Audiovisuales</h1>
+        <h1 className="text-7xl text-subtitle font-bold">Audiovisuales</h1>
       </header>
       <main className="mx-12">
         <section>

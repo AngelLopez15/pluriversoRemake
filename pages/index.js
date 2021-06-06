@@ -130,7 +130,7 @@ export default function Home() {
               <img className="w-full rounded-lg" src="/images/portadas/Thumb_Hernan.png" alt="Dr. Hernan Salas Quintanal" />
             </div>
             <div className="mx-8 w-96">
-              <img className="w-full rounded-lg" src="/images/portadas/Thumb_aniv.png" alt="10° Aniversario de la Licenciatura en Desarrollo y Gestión Interculturales" />
+              <img className="w-full rounded-lg" src="/images/portadas/aniv.png" alt="10° Aniversario de la Licenciatura en Desarrollo y Gestión Interculturales" />
             </div>
           </div>
           <div className="text-center">
