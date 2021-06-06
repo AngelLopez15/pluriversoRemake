@@ -8,10 +8,10 @@ import Publica from '../../data/interculturalismo/interculturalismoPublica.json'
 export default function bibliografiaInterculturalismo() {
   return (
     <>
-      <header className="w-full text-center py-24 imagen-fondo-pluriverso">
-        <h1 className="text-7xl text-white font-bold">Bibliografía Interculturalismo</h1>
+      <header className="w-full text-center py-24 imagen-fondo-pluriverso md:py-6">
+        <h1 className="text-7xl text-white font-bold md:text-xl">Bibliografía Interculturalismo</h1>
       </header>
-      <main className="mx-12 mt-6">
+      <main className="mx-12 mt-6 md:mx-3 md:mt-2">
         <Tabs>
           <TabList>
             <Tab>Política pública</Tab>
@@ -19,7 +19,7 @@ export default function bibliografiaInterculturalismo() {
             <Tab>Filosofía</Tab>
           </TabList>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Política pública</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -44,7 +44,7 @@ export default function bibliografiaInterculturalismo() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Ciencias políticas</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -69,7 +69,7 @@ export default function bibliografiaInterculturalismo() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Filosofía</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>

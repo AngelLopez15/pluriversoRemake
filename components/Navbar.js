@@ -70,18 +70,41 @@ export default function Navbar() {
     setEjesToggle(!ejesToggle)
   }
 
+  const [menu, setMenu] = useState(false)
+  const [burger, setBurger] = useState(false)
+
+  const firstBar = "first-bar"
+  const secondBar = "second-bar"
+  const thirdBar = "third-bar"
+
+  const showFirstBar = "show-first-bar"
+  const showSecondBar = "show-second-bar"
+  const showThirdBar = "show-third-bar"
+
+  const desplegarMenu = () => {
+    setMenu(!menu)
+    setBurger(!burger)
+  }
+
   return (
-    <nav className="flex w-full justify-between p-4 shadow-xl sticky top-0 z-10 bg-blue-100">
-      <div>
+    <nav className="flex w-full justify-between p-4 shadow-xl sticky top-0 z-10 bg-blue-100 md:flex md:flex-col">
+      <div className="md:flex md:w-full md:justify-between md:px-4">
         <Link href="/">
           <a>
             <img src='/images/Logo.png' alt="Logo Pluriverso" />
           </a>
         </Link>
+        <button class="md:block hidden" onClick={desplegarMenu}>
+          <div className="toggle-menu-icon">
+            <div className={burger ? showFirstBar : firstBar}></div>
+            <div className={burger ? showSecondBar : secondBar}></div>
+            <div className={burger ? showThirdBar : thirdBar}></div>
+          </div>
+        </button>
       </div>
-      <div className="self-center">
-        <ul className="flex justify-end w-full">
-          <li className="px-4 font-semibold text-xl cursor-pointer" onMouseEnter={toggleEjes} onMouseLeave={toggleEjes}>
+      <div className="self-center" className={menu ? "md:block" : "md:hidden"}>
+        <ul className="flex justify-end w-full md:flex md:flex-col md:my-5">
+          <li className="px-4 font-semibold text-xl cursor-pointer md:py-4" onMouseEnter={toggleEjes} onMouseLeave={toggleEjes}>
             Ejes
             <ul className={ ejesToggle ? 'absolute bg-red-100 rounded-lg' : 'absolute bg-red-100 rounded-lg hidden'}>
               {
@@ -97,7 +120,7 @@ export default function Navbar() {
           </li>
           {
             pages.map((item) => (
-              <li key={item.id} className="px-4 font-semibold text-xl">
+              <li key={item.id} className="px-4 font-semibold text-xl md:py-4">
                 <Link href={`/${item.link}`}>
                   <a>{item.title}</a>
                 </Link>

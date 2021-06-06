@@ -15,10 +15,10 @@ import Salud from '../../data/interculturalidad/salud.json'
 export default function bibliografiaInterculturalidad() {
   return (
     <>
-      <header className="w-full text-center py-24 imagen-fondo-pluriverso">
-        <h1 className="text-7xl text-white font-bold">Bibliografía Interculturalidad</h1>
+      <header className="w-full text-center py-24 imagen-fondo-pluriverso md:py-6">
+        <h1 className="text-7xl text-white font-bold md:text-xl">Bibliografía Interculturalidad</h1>
       </header>
-      <main className="mx-12 mt-6">
+      <main className="mx-12 mt-6 md:mx-3 md:mt-2">
         <Tabs>
           <TabList>
             <Tab>Estudios culturales e interdisciplinarios</Tab>
@@ -33,7 +33,7 @@ export default function bibliografiaInterculturalidad() {
             <Tab>Salud</Tab>
           </TabList>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Estudios culturales e interdisciplinarios</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -58,7 +58,7 @@ export default function bibliografiaInterculturalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Educación</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -83,7 +83,7 @@ export default function bibliografiaInterculturalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Antropoligía</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -108,7 +108,7 @@ export default function bibliografiaInterculturalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Mediación</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -133,7 +133,7 @@ export default function bibliografiaInterculturalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Comunicación</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -158,7 +158,7 @@ export default function bibliografiaInterculturalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Economía</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -183,7 +183,7 @@ export default function bibliografiaInterculturalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Metodología de investigación</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -208,7 +208,7 @@ export default function bibliografiaInterculturalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Feminismo y estudios de género</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -233,7 +233,7 @@ export default function bibliografiaInterculturalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Estudios sobre discriminación</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -258,7 +258,7 @@ export default function bibliografiaInterculturalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Salud</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>

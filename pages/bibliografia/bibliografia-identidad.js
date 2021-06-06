@@ -14,10 +14,10 @@ import LF from '../../data/identidad/identidadLF.json'
 export default function bibliografiaIdentida() {
   return (
     <>
-      <header className="w-full text-center py-24 imagen-fondo-pluriverso">
-        <h1 className="text-7xl text-white font-bold">Bibliografía Identidad</h1>
+      <header className="w-full text-center py-24 imagen-fondo-pluriverso md:py-6">
+        <h1 className="text-7xl text-white font-bold md:text-xl">Bibliografía Identidad</h1>
       </header>
-      <main className="mx-12 mt-6">
+      <main className="mx-12 mt-6 md:mx-3 md:mt-2">
         <Tabs>
           <TabList>
             <Tab>Psicología</Tab>
@@ -30,7 +30,7 @@ export default function bibliografiaIdentida() {
             <Tab>Lingüística y Feminismo</Tab>
           </TabList>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Psicología</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -55,7 +55,7 @@ export default function bibliografiaIdentida() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Epidemología</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -80,7 +80,7 @@ export default function bibliografiaIdentida() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Sociología</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -105,7 +105,7 @@ export default function bibliografiaIdentida() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Filosofía</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -130,7 +130,7 @@ export default function bibliografiaIdentida() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Antropoligía</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -155,7 +155,7 @@ export default function bibliografiaIdentida() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Antropoligía Social</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -180,7 +180,7 @@ export default function bibliografiaIdentida() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Estudios y Políticas Culturales</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -205,7 +205,7 @@ export default function bibliografiaIdentida() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Lingüística y Feminismo</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>

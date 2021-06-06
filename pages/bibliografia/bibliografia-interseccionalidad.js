@@ -20,10 +20,10 @@ import EducacionInfantil from '../../data/interseccionalidad/interseccionalidadE
 export default function bibliografiaInterseccionalidad() {
   return (
     <>
-      <header className="w-full text-center py-24 imagen-fondo-pluriverso">
-        <h1 className="text-7xl text-white font-bold">Bibliografía Interseccionalidad</h1>
+      <header className="w-full text-center py-24 imagen-fondo-pluriverso md:py-6">
+        <h1 className="text-7xl text-white font-bold md:text-xl">Bibliografía Interseccionalidad</h1>
       </header>
-      <main className="mx-12 mt-6">
+      <main className="mx-12 mt-6 md:mx-3 md:mt-2">
         <Tabs>
           <TabList>
             <Tab>Psicología</Tab>
@@ -43,7 +43,7 @@ export default function bibliografiaInterseccionalidad() {
             <Tab>Educación infantil y derecho</Tab>
           </TabList>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Psicología</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -68,7 +68,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Sociología y ciencias políticas</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -93,7 +93,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Filosofía</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -118,7 +118,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Antropología</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -143,7 +143,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Derechos humanos</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -168,7 +168,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Ciencias políticas y sociales</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -193,7 +193,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Estudios culturales</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -218,7 +218,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Pedagogía</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -243,7 +243,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Politica pública</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -268,7 +268,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Salúd pública</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -293,7 +293,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Historia</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -318,7 +318,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Literatura</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -343,7 +343,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Derecho</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -368,7 +368,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Epidemiologia</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>
@@ -393,7 +393,7 @@ export default function bibliografiaInterseccionalidad() {
             </section>
           </TabPanel>
           <TabPanel>
-            <section>
+            <section className="md:overflow-x-scroll">
               <h2>Educación infantil y derecho</h2>
               <table className="table-fixed border-collapse border border-green-800">
                 <thead>

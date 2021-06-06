@@ -103,78 +103,78 @@ export default function audiovisuales() {
 
   return (
     <>
-      <header className="w-full text-center py-24 imagen-fondo-videos">
-        <h1 className="text-7xl text-subtitle font-bold">Audiovisuales</h1>
+      <header className="w-full text-center py-24 imagen-fondo-videos md:py-6">
+        <h1 className="text-7xl text-subtitle font-bold md:text-3xl md:text-white">Audiovisuales</h1>
       </header>
-      <main className="mx-12">
-        <section>
+      <main className="mx-12 md:mx-2">
+        <section className="md:py-4">
           <h2>Investigación audiovisual</h2>
-          <p className="font-medium text-lg text-gray-700">Presentamos un acercamiento en lenguaje visual de las diversidades.</p>
-          <p className="font-medium text-lg text-gray-700">Preguntamos a académicos de la UNAM, de la UAM Xochimilco, de El Colegio de México y de la Universidad de Vigo en Galicia, sobre sus investigaciones y docencia en el salón de clases acerca de los conceptos principales.</p>
-          <p className="font-medium text-lg text-gray-700">Para conocer cómo el concepto se materializa en experiencias, buscamos a creadores que interpretan diversos géneros musicales. La identidad es explorada en los segmentos de la cantante maya Yazmin Novelo, del rapero mazateco José Andrés, y de la intérprete de chilenas, Yamilé Mendoza.</p>
-          <p className="font-medium text-lg text-gray-700">Otras expresiones de afromexicaneidad se pueden ver con el registro de algunas memorias del Congreso Internacional de Estudios Afromexicanos en la Ciudad de Oaxaca.</p>
-          <p className="font-medium text-lg text-gray-700">Las vivencias de la interculturalidad, fueron aportadas por alumnos y profesores nahuas y totonacas en la Universidad Intercultural del Estado de Puebla, y del Centro de Estudios Superiores Indígenas KGOYOM en Huehuetla, Puebla.</p>
-          <p className="font-medium text-lg text-gray-700">Introspecciones sobre cómo vivir identidades diversas son las que registramos del poeta muxe zapoteca, Elvis Guerra, de la activista feminista, Leticia Sánchez, y de las sexualidades trans, Dora Omara Corona. Con estas experiencias, buscamos aportar ejemplos de interseccionalidad. A fin de contribuir al acercamiento de más sexualidades, registramos momentos de la marcha LGBT+ en la Ciudad de México.</p>
-          <p className="font-medium text-lg text-gray-700">Por último, mostramos un simbólico registro de la celebración de la primera década de la Licenciatura en Desarrollo y Gestión Intercultural.</p>
+          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Presentamos un acercamiento en lenguaje visual de las diversidades.</p>
+          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Preguntamos a académicos de la UNAM, de la UAM Xochimilco, de El Colegio de México y de la Universidad de Vigo en Galicia, sobre sus investigaciones y docencia en el salón de clases acerca de los conceptos principales.</p>
+          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Para conocer cómo el concepto se materializa en experiencias, buscamos a creadores que interpretan diversos géneros musicales. La identidad es explorada en los segmentos de la cantante maya Yazmin Novelo, del rapero mazateco José Andrés, y de la intérprete de chilenas, Yamilé Mendoza.</p>
+          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Otras expresiones de afromexicaneidad se pueden ver con el registro de algunas memorias del Congreso Internacional de Estudios Afromexicanos en la Ciudad de Oaxaca.</p>
+          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Las vivencias de la interculturalidad, fueron aportadas por alumnos y profesores nahuas y totonacas en la Universidad Intercultural del Estado de Puebla, y del Centro de Estudios Superiores Indígenas KGOYOM en Huehuetla, Puebla.</p>
+          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Introspecciones sobre cómo vivir identidades diversas son las que registramos del poeta muxe zapoteca, Elvis Guerra, de la activista feminista, Leticia Sánchez, y de las sexualidades trans, Dora Omara Corona. Con estas experiencias, buscamos aportar ejemplos de interseccionalidad. A fin de contribuir al acercamiento de más sexualidades, registramos momentos de la marcha LGBT+ en la Ciudad de México.</p>
+          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Por último, mostramos un simbólico registro de la celebración de la primera década de la Licenciatura en Desarrollo y Gestión Intercultural.</p>
         </section>
-        <section>
+        <section className="md:py-4">
           <h2>Conceptos fundamentales</h2>
-          <div className="flex flex-wrap justify-center">
+          <div className="flex w-full flex-wrap justify-center">
             {
               videoConceptos.map((item) => (
-                <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+                <article key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 2xl:m-2 md:mx-2 md:mb-4">
                   <div className="flex justify-center">
                     <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
                   </div>
                   <h3 className="text-xl font-semibold text-center my-8 text-blue-900">{item.titulo}</h3>
                   <div className="flex justify-center mb-8">
                     <Link href={`/video/${item.link}`}>
-                      <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300">Ver video</a>
+                      <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 md:px-32">Ver video</a>
                     </Link>
                   </div>
-                </div>
+                </article>
               ))
             }
           </div>
         </section>
-        <section>
+        <section className="md:py-4">
           <h2>Experiencias</h2>
           <div className="flex flex-wrap justify-center">
             <div className="flex flex-wrap justify-center">
               {
                 videoExperiencias.map((item) => (
-                  <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+                  <article key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 2xl:m-2 md:mx-2 md:mb-4">
                     <div className="flex justify-center">
                       <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
                     </div>
                     <h3 className="text-xl font-semibold text-center my-8 text-blue-900">{item.titulo}</h3>
                     <div className="flex justify-center mb-8">
                       <Link href={`/video/${item.link}`}>
-                        <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300">Ver video</a>
+                        <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 md:px-32">Ver video</a>
                       </Link>
                     </div>
-                  </div>
+                  </article>
                 ))
               }
             </div>
           </div>
         </section>
-        <section>
+        <section className="md:py-4">
           <h2>Expresiones</h2>
           <div className="flex flex-wrap justify-center">
             {
               videoExpresiones.map((item) => (
-                <div key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+                <article key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 2xl:m-2 md:mx-2 md:mb-4">
                   <div className="flex justify-center">
                     <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
                   </div>
                   <h3 className="text-xl font-semibold text-center my-8 text-blue-900">{item.titulo}</h3>
                   <div className="flex justify-center mb-8">
                     <Link href={`/video/${item.link}`}>
-                      <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300">Ver video</a>
+                      <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 md:px-32">Ver video</a>
                     </Link>
                   </div>
-                </div>
+                </article>
               ))
             }
           </div>

@@ -6,29 +6,29 @@ export default function Footer() {
   return (
     <footer className="w-full py-6 bg-green-200">
       <div className="flex w-full px-6">
-        <div className="flex w-full justify-around">
-          <div>
+        <div className="flex w-full justify-around md:flex-wrap">
+          <div className="md:w-1/2">
             <img src='/images/unam.png' alt="Logo UNAM" />
           </div>
-          <div>
+          <div className="md:w-1/2">
             <img src='/images/dgapa.png' alt="Logo DGAPA" />
           </div>
-          <div>
+          <div className="md:w-1/2">
             <img src='/images/logoIIS.png' alt="Logo IIS" />
           </div>
-          <div>
+          <div className="md:w-1/2">
             <img src='/images/ffl.png' alt="Logo FFyL" />
           </div>
-          <div>
+          <div className="md:w-1/2">
             <img src='/images/dygi.png' alt="Logo DYGI" />
           </div>
-          <div>
+          <div className="md:w-1/2">
             <img src='/images/cephcis.png' alt="Logo CEPHCIS" />
           </div>
         </div>
       </div>
       <div>
-        <ul className="flex w-full justify-evenly py-4">
+        <ul className="flex w-full justify-evenly py-4 md:flex-col md:text-center">
           <li>
             <p className="font-medium text-lg text-gray-700">Instituto de Investigaciones Sociales</p>
           </li>
@@ -40,7 +40,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div className="flex w-full justify-around">
+      <div className="flex w-full justify-around md:flex-col md:text-center">
         <div>
           <p className="font-medium text-lg text-gray-700">©PAPIME Clave PE404617. Todos los derechos reservados. {onlyYear}</p>
         </div>
