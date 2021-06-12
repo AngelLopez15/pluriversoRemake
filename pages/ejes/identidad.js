@@ -3,10 +3,10 @@ import Link from 'next/link'
 export default function identidad() {
   return (
     <>
-      <header className="w-full text-center py-24 imagen-fondo-pluriverso">
-        <h1 className="text-7xl text-white font-bold">identidad</h1>
+      <header className="w-full text-center py-24 imagen-fondo-pluriverso md:py-6">
+        <h1 className="text-7xl text-white font-bold md:text-3xl">Identidad</h1>
       </header>
-      <main className="mx-12">
+      <main className="mx-12 md:mx-2">
         <section>
           <h2>Presentación</h2>
           <p className="font-medium text-lg text-gray-700">Este concepto tiene diversas definiciones que se enfrentan a una complejidad múltiple. En primer lugar, se desarrolla a partir de la diferencia, es decir, en contraste con la percepción que tenemos acerca de quiénes somos, y quiénes son los otros. Esto se traduce en las representaciones que desarrollamos de nosotros mismos en relación con los demás.</p>
