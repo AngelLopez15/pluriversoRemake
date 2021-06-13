@@ -8,10 +8,10 @@
   },
   {
     "id": "2",
-    "foto":"/images/integrantes/denisse.png",
-    "nombre":"Denisse Sandoval Ramírez",
-    "descripcion":"Licenciada en Ciencias de la Comunicación por la Facultad de Ciencias Políticas y Sociales de la UNAM, con especialidad en Comunicación Política con una tesis sobre subjetividades políticas y el EZLN. He laborado en el periódico El Universal y en Gaceta UNAM, y he colaborado en las revistas digitales El Soma y Ala Izquierda. Me desempeñé como asistente de investigación en el Instituto de Investigaciones Sociales de la UNAM durante cuatro años, colaborando en distintos proyectos académicos. Actualmente trabajo como comunicóloga independiente en diversos medios. Mis intereses versan sobre la investigación académica, periodística y el ámbito literario y editorial.",
-    "correo":"denisse.sanram@gmail.com"
+    "foto":"/images/integrantes/monse.png",
+    "nombre":"María Monserrat González Gómez",
+    "descripcion":"Licenciada en Desarrollo y Gestión Interculturales con pre-especialización en Ciencia, Tecnología y Sociedad por la Facultad de Filosofía y Letras de la UNAM. Actualmente formo parte del proyecto Jóvenes de identidades diversas en dinámicas metropolitanas (CONACYT). Mis temas de interés versan sobre  proyectos de revitalización de lenguas originarias en México y su vinculación con la educación.",
+    "correo":"glezmonserrat96@gmail.com"
   },
   {
     "id": "3",
@@ -36,10 +36,10 @@
   },
   {
     "id": "6",
-    "foto":"/images/integrantes/monse.png",
-    "nombre":"María Monserrat González Gómez",
-    "descripcion":"Licenciada en Desarrollo y Gestión Interculturales con pre-especialización en Ciencia, Tecnología y Sociedad por la Facultad de Filosofía y Letras de la UNAM. Actualmente formo parte del proyecto Jóvenes de identidades diversas en dinámicas metropolitanas (CONACYT). Mis temas de interés versan sobre  proyectos de revitalización de lenguas originarias en México y su vinculación con la educación.",
-    "correo":"glezmonserrat96@gmail.com"
+    "foto":"/images/integrantes/denisse.png",
+    "nombre":"Denisse Sandoval Ramírez",
+    "descripcion":"Licenciada en Ciencias de la Comunicación por la Facultad de Ciencias Políticas y Sociales de la UNAM, con especialidad en Comunicación Política con una tesis sobre subjetividades políticas y el EZLN. He laborado en el periódico El Universal y en Gaceta UNAM, y he colaborado en las revistas digitales El Soma y Ala Izquierda. Me desempeñé como asistente de investigación en el Instituto de Investigaciones Sociales de la UNAM durante cuatro años, colaborando en distintos proyectos académicos. Actualmente trabajo como comunicóloga independiente en diversos medios. Mis intereses versan sobre la investigación académica, periodística y el ámbito literario y editorial.",
+    "correo":"denisse.sanram@gmail.com"
   },
   {
     "id": "7",

@@ -28,7 +28,7 @@ export default function video() {
                 <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">{informacion.texto}</p>
                 <div className="flex justify-center mb-8">
                   <Link href="/audiovisuales">
-                    <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 2xl:text-sm md:text-sm">Regresar a la galeria de videos</a>
+                    <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 2xl:text-sm md:text-sm sm:px-10">Regresar a la galeria de videos</a>
                   </Link>
                 </div>
               </div>
@@ -40,7 +40,7 @@ export default function video() {
               <p className="text-6xl font-extrabold text-subtitle my-20 text-center">Lo sentimos pero no hay informacion de ese video</p>
               <div className="flex justify-center mb-8">
                 <Link href="/audiovisuales">
-                  <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300">Ir a galeria de videos</a>
+                  <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 sm:text-sm">Ir a galeria de videos</a>
                 </Link>
               </div>
             </div>

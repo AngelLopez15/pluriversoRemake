@@ -23,20 +23,29 @@ export default function interculturalidad() {
         </section>
         <section>
           <h2>Mapa mental</h2>
-          <div className="mb-4">
-            <p className="font-medium text-lg text-gray-700">Decargar mapa mental</p>
-            <a target="_blank" rel="noopener noreferrer" href="/mapas/identidad.jpg">como PDF</a>
-            <a target="_blank" rel="noopener noreferrer" href="/mapas/identidad.pdf">como imagen</a>
+          <div className="mb-10 flex justify-center">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.goconqr.com/es-MX/p/14780222-----Interculturalidad-mind_maps?frame=true" className="bg-action py-4 px-20 mr-2 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-secondary sm:px-10 sm:text-base md:mr-0 md:mb-2">Ir al mapa mental interactivo</a>
           </div>
           <div className="mb-4">
-            <p className="font-medium text-lg text-gray-700">Descargar nota metodológica</p>
-            <a target="_blank" rel="noopener noreferrer" href="/notas/notaIdentidad.pdf">Descargar</a>
+            <p className="font-medium text-2xl text-gray-700 text-center">Decargar mapa mental</p>
+            <div className="flex justify-center md:flex-wrap">
+              <a target="_blank" rel="noopener noreferrer" href="/mapas/identidad.jpg" className="bg-red-500 py-4 px-20 mr-2 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-blue-500 sm:px-16 md:mr-0 md:mb-2">como PDF</a>
+              <a target="_blank" rel="noopener noreferrer" href="/mapas/identidad.pdf" className="bg-blue-400 py-4 px-20 ml-2 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-green-500 sm:px-12 md:ml-0">como imagen</a>
+            </div>
           </div>
           <div className="mb-4">
-            <p className="font-medium text-lg text-gray-700">Bibliografía</p>
-            <Link href="/bibliografia/bibliografia-interculturalidad">
-              <a>Ir a la seccion</a>
-            </Link>
+            <p className="font-medium text-2xl text-gray-700 text-center">Descargar nota metodológica</p>
+            <div className="flex justify-center">
+              <a target="_blank" rel="noopener noreferrer" href="/notas/notaIdentidad.pdf" className="bg-green-400 py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 sm:px-16">Descargar</a>
+            </div>
+          </div>
+          <div className="mb-4">
+            <p className="font-medium text-2xl text-gray-700 text-center">Bibliografía</p>
+            <div className="flex justify-center">
+              <Link href="/bibliografia/bibliografia-interculturalidad">
+                <a className="bg-yellow-400 py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-green-300 sm:px-12">Ir a la seccion</a>
+              </Link>
+            </div>
           </div>
         </section>
       </main>

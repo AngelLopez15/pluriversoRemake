@@ -10,7 +10,7 @@ export default function Home() {
       </Head> */}
       <header className="w-full h-screen imagen-fondo">
         <div className="flex w-full h-screen justify-center items-center md:px-2 sm:px-1">
-          <div className="w-1/2 md:w-full">
+          <div className="w-1/2 md:w-full md:text-center">
             <h1 className="text-7xl text-white font-bold md:text-5xl sm:text-4xl">Pluriverso Digital</h1>
             <p className="my-8 text-3xl text-white font-medium md:text-2xl sm:text-xl">La Plataforma Digital sobre Estudios de la Diversidad Cultural en México</p>
             <a className="py-3 px-24 rounded-full border-2 border-white text-2xl sm:text-lg sm:px-20 text-white font-medium transition duration-300 ease-in-out hover:bg-subtitle" href="#ejes">Ir a ejes tematicos</a>

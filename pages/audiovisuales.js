@@ -129,7 +129,7 @@ export default function audiovisuales() {
                   <h3 className="text-xl font-semibold text-center my-8 text-blue-900">{item.titulo}</h3>
                   <div className="flex justify-center mb-8">
                     <Link href={`/video/${item.link}`}>
-                      <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 md:px-32">Ver video</a>
+                      <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 md:px-32 sm:px-28">Ver video</a>
                     </Link>
                   </div>
                 </article>
@@ -140,23 +140,21 @@ export default function audiovisuales() {
         <section className="md:py-4">
           <h2>Experiencias</h2>
           <div className="flex flex-wrap justify-center">
-            <div className="flex flex-wrap justify-center">
-              {
-                videoExperiencias.map((item) => (
-                  <article key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 2xl:m-2 md:mx-2 md:mb-4">
-                    <div className="flex justify-center">
-                      <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
-                    </div>
-                    <h3 className="text-xl font-semibold text-center my-8 text-blue-900">{item.titulo}</h3>
-                    <div className="flex justify-center mb-8">
-                      <Link href={`/video/${item.link}`}>
-                        <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 md:px-32">Ver video</a>
-                      </Link>
-                    </div>
-                  </article>
-                ))
-              }
-            </div>
+            {
+              videoExperiencias.map((item) => (
+                <article key={item.id} className="mx-8 w-96 bg-gray-100 shadow-xl mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 2xl:m-2 md:mx-2 md:mb-4">
+                  <div className="flex justify-center">
+                    <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
+                  </div>
+                  <h3 className="text-xl font-semibold text-center my-8 text-blue-900">{item.titulo}</h3>
+                  <div className="flex justify-center mb-8">
+                    <Link href={`/video/${item.link}`}>
+                      <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 md:px-32 sm:px-28">Ver video</a>
+                    </Link>
+                  </div>
+                </article>
+              ))
+            }
           </div>
         </section>
         <section className="md:py-4">
@@ -171,7 +169,7 @@ export default function audiovisuales() {
                   <h3 className="text-xl font-semibold text-center my-8 text-blue-900">{item.titulo}</h3>
                   <div className="flex justify-center mb-8">
                     <Link href={`/video/${item.link}`}>
-                      <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 md:px-32">Ver video</a>
+                      <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 md:px-32 sm:px-28">Ver video</a>
                     </Link>
                   </div>
                 </article>
