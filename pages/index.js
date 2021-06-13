@@ -9,11 +9,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
       <header className="w-full h-screen imagen-fondo">
-        <div className="flex w-full h-screen justify-center items-center md:px-2">
+        <div className="flex w-full h-screen justify-center items-center md:px-2 sm:px-1">
           <div className="w-1/2 md:w-full">
-            <h1 className="text-7xl text-white font-bold md:text-5xl">Pluriverso Digital</h1>
-            <p className="my-8 text-3xl text-white font-medium md:text-2xl">La Plataforma Digital sobre Estudios de la Diversidad Cultural en México</p>
-            <a className="py-3 px-24 rounded-full border-2 border-white text-2xl text-white font-medium transition duration-300 ease-in-out hover:bg-subtitle" href="#ejes">Ir a ejes tematicos</a>
+            <h1 className="text-7xl text-white font-bold md:text-5xl sm:text-4xl">Pluriverso Digital</h1>
+            <p className="my-8 text-3xl text-white font-medium md:text-2xl sm:text-xl">La Plataforma Digital sobre Estudios de la Diversidad Cultural en México</p>
+            <a className="py-3 px-24 rounded-full border-2 border-white text-2xl sm:text-lg sm:px-20 text-white font-medium transition duration-300 ease-in-out hover:bg-subtitle" href="#ejes">Ir a ejes tematicos</a>
           </div>
         </div>
       </header>
@@ -135,7 +135,7 @@ export default function Home() {
           </div>
           <div className="text-center">
             <Link href="/audiovisuales">
-              <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300">Ir a la sección de videos</a>
+              <a className="bg-action py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 sm:px-12">Ir a la sección de videos</a>
             </Link>
           </div>
         </section>

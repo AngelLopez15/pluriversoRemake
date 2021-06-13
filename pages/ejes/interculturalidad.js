@@ -3,10 +3,10 @@ import Link from 'next/link'
 export default function interculturalidad() {
   return (
     <>
-      <header className="w-full text-center py-24 imagen-fondo-pluriverso">
-        <h1 className="text-7xl text-white font-bold">Interculturalidad</h1>
+      <header className="w-full text-center py-24 imagen-fondo-pluriverso md:py-6">
+        <h1 className="text-7xl text-white font-bold md:text-3xl">Interculturalidad</h1>
       </header>
-      <main className="mx-12">
+      <main className="mx-12 md:mx-2">
         <section>
           <h2>Presentación</h2>
           <p className="font-medium text-lg text-gray-700">El concepto de interculturalidad se ha trabajado principalmente por autores de América Latina. Plantea las relaciones e interacciones entre miembros e instituciones de distintas culturas y sociedades. Se trata de un proyecto social y político que está vinculado con los proyectos, “desde abajo” o bien parte de las luchas políticas de los pueblos originarios o afrodescendientes.</p>
