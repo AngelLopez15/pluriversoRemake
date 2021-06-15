@@ -21,6 +21,9 @@ module.exports = {
       'sm': { 'max': '639px' },
       // => @media (max-width: 639px) { ... }
     },
+    rotate: {
+      '360': '360deg',
+    }
   },
   variants: {
     extend: {},
