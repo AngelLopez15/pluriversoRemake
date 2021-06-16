@@ -94,7 +94,7 @@ export default function Navbar() {
             <img src='/images/Logo.png' alt="Logo Pluriverso" />
           </a>
         </Link>
-        <button class="md:block hidden" onClick={desplegarMenu}>
+        <button className="md:block hidden" onClick={desplegarMenu}>
           <div className="toggle-menu-icon">
             <div className={burger ? showFirstBar : firstBar}></div>
             <div className={burger ? showSecondBar : secondBar}></div>
@@ -109,7 +109,7 @@ export default function Navbar() {
             <ul className={ ejesToggle ? 'absolute bg-red-100 rounded-lg' : 'absolute bg-red-100 rounded-lg hidden'}>
               {
                 ejes.map((item) => (
-                  <li key={item.id} className="p-2">
+                  <li key={item.id} className="px-2 py-3" onClick={desplegarMenu}>
                     <Link href={`/ejes/${item.link}`}>
                       <a>{item.title}</a>
                     </Link>
@@ -120,7 +120,7 @@ export default function Navbar() {
           </li>
           {
             pages.map((item) => (
-              <li key={item.id} className="px-4 font-semibold text-xl md:py-4">
+              <li key={item.id} className="px-4 font-semibold text-xl md:py-4" onClick={desplegarMenu}>
                 <Link href={`/${item.link}`}>
                   <a>{item.title}</a>
                 </Link>
