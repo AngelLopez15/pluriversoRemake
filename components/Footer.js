@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <ul className="flex w-full justify-evenly py-4 md:flex-col md:text-center">
+        <ul className="flex w-full justify-evenly py-2 md:flex-col md:text-center">
           <li>
             <p className="font-medium text-lg text-gray-700">Instituto de Investigaciones Sociales</p>
           </li>
@@ -36,7 +36,20 @@ export default function Footer() {
             <a href="tel:5556227400"><p className="font-medium text-lg text-gray-700">5556227400 ext. 280</p></a>
           </li>
           <li>
-            <a href="mailto:pluriversodigital@unam.mx"><p className="font-medium text-lg text-gray-700">pluriversodigital@unam.mx</p></a>
+            <a href="mailto:pluriversodigital@gmail.com"><p className="font-medium text-lg text-gray-700">pluriversodigital@gmail.com</p></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul className="flex w-full justify-evenly py-2">
+          <li>
+            <a href="https://www.facebook.com/PluriversoDigital/" target="_blank" rel="noopener noreferrer"><img className="w-8 mx-8 md:mx-4" src="/images/redes/facebook.svg" alt="logo facebook" /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/PluriversoDig" target="_blank" rel="noopener noreferrer"><img className="w-8 mx-8 md:mx-4" src="/images/redes/twitter.svg" alt="logo twitter" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/pluriversodigital/" target="_blank" rel="noopener noreferrer"><img className="w-8 mx-8 md:mx-4" src="/images/redes/instagram.svg" alt="logo instagram" /></a>
           </li>
         </ul>
       </div>

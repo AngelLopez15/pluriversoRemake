@@ -122,7 +122,7 @@ export default function audiovisuales() {
           <div className="flex w-full flex-wrap justify-center">
             {
               videoConceptos.map((item) => (
-                <article key={item.id} className="mx-8 w-96 bg-gray-100 shadow-md mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-4 hover:bg-blue-100 2xl:m-2 md:mx-2 md:mb-4">
+                <article key={item.id} className="mx-8 w-96 bg-gray-100 shadow-md mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-4 2xl:m-2 md:mx-2 md:mb-4">
                   <div className="flex justify-center">
                     <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
                   </div>
@@ -142,7 +142,7 @@ export default function audiovisuales() {
           <div className="flex flex-wrap justify-center">
             {
               videoExperiencias.map((item) => (
-                <article key={item.id} className="mx-8 w-96 bg-gray-100 shadow-md mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-4 hover:bg-blue-100 2xl:m-2 md:mx-2 md:mb-4">
+                <article key={item.id} className="mx-8 w-96 bg-gray-100 shadow-md mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-4 2xl:m-2 md:mx-2 md:mb-4">
                   <div className="flex justify-center">
                     <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
                   </div>
@@ -162,7 +162,7 @@ export default function audiovisuales() {
           <div className="flex flex-wrap justify-center">
             {
               videoExpresiones.map((item) => (
-                <article key={item.id} className="mx-8 w-96 bg-gray-100 shadow-md mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-4 hover:bg-blue-100 2xl:m-2 md:mx-2 md:mb-4">
+                <article key={item.id} className="mx-8 w-96 bg-gray-100 shadow-md mb-16 rounded-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-4 2xl:m-2 md:mx-2 md:mb-4">
                   <div className="flex justify-center">
                     <img className="w-full rounded-lg" src={item.imagen} alt={item.titulo} />
                   </div>

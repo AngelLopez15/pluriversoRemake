@@ -127,8 +127,8 @@ export default function Navbar() {
               </li>
             ))
           }
-          <li>
-            <a className="px-4 font-semibold text-xl md:py-4" target="_blank" rel="noopener noreferrer" href="https://pluriversodigital.medium.com/">Blog</a>
+          <li className="px-4 font-semibold text-xl md:py-4" onClick={desplegarMenu}>
+            <a target="_blank" rel="noopener noreferrer" href="https://pluriversodigital.medium.com/">Blog</a>
           </li>
         </ul>
       </div>
