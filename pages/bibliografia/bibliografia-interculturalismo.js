@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
@@ -8,6 +9,13 @@ import Publica from '../../data/interculturalismo/interculturalismoPublica.json'
 export default function bibliografiaInterculturalismo() {
   return (
     <>
+      <Head>
+        <title>Bibliografía Interculturalismo | Pluriverso Digital</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="Bibliografía Interculturalismo Eje Interculturalismo. Pluriverso Digital es la plataforma digital sobre estudios de la diversidad cultural en México que abarca seis ejes relacionados con el estudio de las culturas, la era del reconocimiento a minorías, y las políticas públicas." />
+        <link rel="icon" href="/prismaicon.ico" />
+      </Head>
       <header className="w-full text-center py-24 imagen-fondo-pluriverso md:py-6">
         <h1 className="text-7xl text-white font-bold md:text-xl">Bibliografía Interculturalismo</h1>
       </header>

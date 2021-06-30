@@ -1,13 +1,16 @@
-// import Head from 'next/head'
+import Head from 'next/head'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <>
-      {/* <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head> */}
+      <Head>
+        <title>Pluriverso Digital | Estudios de la diversidad cultural en México</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="Pluriverso Digital es la plataforma digital sobre estudios de la diversidad cultural en México que abarca seis ejes relacionados con el estudio de las culturas, la era del reconocimiento a minorías, y las políticas públicas." />
+        <link rel="icon" href="/prismaicon.ico" />
+      </Head>
       <header className="w-full h-screen imagen-fondo">
         <div className="flex w-full h-screen justify-center items-center md:px-2 sm:px-1">
           <div className="w-1/2 md:w-full md:text-center">
