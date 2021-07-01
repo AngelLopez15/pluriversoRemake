@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import etno from '../data/recursos.json'
+
 export default function recursos() {
   return (
     <>
@@ -36,10 +38,38 @@ export default function recursos() {
               </tr>
             </thead>
             <tbody>
+              {
+                etno.map((item) => (
+                  <tr key={item.id}>
+                    <td className="border border-green-600 text-justify">{item.nombre}</td>
+                    <td className="border border-green-600 text-center">{item.formato}</td>
+                    <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href={item.enlace}>Descargar</a></td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+        </section>
+        <section className="md:py-5">
+          <h2>Presentaciones</h2>
+          <table className="table-fixed border-collapse border border-green-800">
+            <thead>
               <tr>
-                <td className="border border-green-600 text-justify">Calle madero</td>
-                <td className="border border-green-600 text-center">AIDA SIERRA ROMERO, MICHELLE ZAPATA MEDINA, PATRICIA LABRA, JUAN PABLO ALCÁNTARA, MONSERRAT GARCÍA GARCÍA</td>
-                <td className="border border-green-600 text-center">Descargar</td>
+                <th className="w-2/5 border border-green-600">Título</th>
+                <th className="w-2/5 border border-green-600">Autor(es)</th>
+                <th className="w-1/5 border border-green-600">Descarga</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-green-600 text-justify">Cultura y etnicidad en el siglo del reconocimiento</td>
+                <td className="border border-green-600 text-center">Gutiérrez Chong Natividad</td>
+                <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href="">Descargar</a></td>
+              </tr>
+              <tr>
+                <td className="border border-green-600 text-justify">La influencia de la etnicidad en la identidad nacional de México y en la unidad del Estado chino</td>
+                <td className="border border-green-600 text-center">Gutiérrez Chong Natividad</td>
+                <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href="">Descargar</a></td>
               </tr>
             </tbody>
           </table>

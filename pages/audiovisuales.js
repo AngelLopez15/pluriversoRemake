@@ -112,7 +112,7 @@ export default function audiovisuales() {
         <link rel="icon" href="/prismaicon.ico" />
       </Head>
       <header className="w-full text-center py-24 imagen-fondo-videos md:py-6">
-        <h1 className="text-7xl text-subtitle font-bold md:text-3xl md:text-white">Audiovisuales</h1>
+        <h1 className="text-7xl text-green-400 font-bold md:text-3xl md:text-white">Audiovisuales</h1>
       </header>
       <main className="mx-12 md:mx-2">
         <section className="md:py-4">
