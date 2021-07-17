@@ -16,16 +16,21 @@ export default function Navbar() {
     },
     {
       id: '3',
+      title: 'Publicaciones',
+      link: 'publicaciones',
+    },
+    {
+      id: '4',
       title: 'Audiovisuales',
       link: 'audiovisuales',
     },
     {
-      id: '4',
+      id: '5',
       title: 'Recursos',
       link: 'recursos',
     },
     {
-      id: '5',
+      id: '6',
       title: 'Galeria',
       link: 'galeria',
     },
