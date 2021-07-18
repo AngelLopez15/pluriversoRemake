@@ -1,7 +1,7 @@
 export default function Integrante({foto, nombre, descripcion, correo, links }) {
   return (
     <figure className="w-96 bg-blue-50 shadow-md rounded-xl p-2 m-8 hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-4 2xl:m-2 md:w-full md:m-2 md:p-2">
-      <img class="w-32 h-32 rounded-full mx-auto" src={foto} alt={nombre} width="384" height="512" />
+      <img className="w-32 h-32 rounded-full mx-auto" src={foto} alt={nombre} width="384" height="512" />
       <div className="pt-6 text-center space-y-4">
         <blockquote className="overflow-y-auto h-60">
           <p className="text-gray-900 font-medium px-4 text-justify">

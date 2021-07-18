@@ -96,7 +96,7 @@ export default function Navbar() {
       <div className="md:flex md:w-full md:justify-between md:px-4">
         <Link href="/">
           <a>
-            <img src='/images/Logo.png' alt="Logo Pluriverso" />
+            <img src='/images/Logo.png' alt="Logo Pluriverso"  onClick={desplegarMenu} />
           </a>
         </Link>
         <button className="md:block hidden" onClick={desplegarMenu}>

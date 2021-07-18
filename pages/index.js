@@ -13,10 +13,10 @@ export default function Home() {
       </Head>
       <header className="w-full h-screen imagen-fondo">
         <div className="flex w-full h-screen justify-center items-center md:px-2 sm:px-1">
-          <div className="w-1/2 md:w-full md:text-center">
+          <div className="w-1/2 fondo-obcuro p-10 rounded-md md:w-full md:text-center">
             <h1 className="text-7xl text-white font-bold md:text-5xl sm:text-4xl">Pluriverso Digital</h1>
             <p className="my-8 text-3xl text-white font-medium md:text-2xl sm:text-xl">La Plataforma Digital sobre Estudios de la Diversidad Cultural en México</p>
-            <a className="py-3 px-24 rounded-full border-2 border-white text-2xl sm:text-lg sm:px-20 text-white font-medium transition duration-300 ease-in-out hover:bg-subtitle" href="#ejes">Ir a ejes tematicos</a>
+            <a className="py-3 px-24 rounded-full border-2 border-white text-2xl sm:text-base sm:px-10 text-white font-medium transition duration-300 ease-in-out hover:bg-subtitle" href="#ejes">Ir a ejes tematicos</a>
           </div>
         </div>
       </header>
@@ -143,8 +143,13 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <h2>Hecho en</h2>
-          <p className="font-medium text-xl text-gray-700 md:text-sm md:text-justify md:mx-2">Hecho en México por la Universidad Nacional Autónoma de México (UNAM), 2019. Plataforma Digital sobre estudios de la diversidad cultural en México Pluriverso Digital, financiado por PAPIME y llevado a cabo en el Instituto de Investigaciones Sociales (IIS- UNAM) con total apego a lo dispuesto en el Acuerdo por el que se establecen los Lineamientos Generales para la Política de Acceso Abierto de la Universidad Nacional Autónoma de México, la Legislación Universitaria, la Ley Federal de Derechos de Autor y cualquier otro ordenamiento en materia de propiedad intelectual aplicable.</p>
+          <h2>Pluriverso Digital</h2>
+          <p className="font-medium text-lg text-gray-700 md:text-sm md:text-justify md:mx-2">
+            Pluriverso digital, 2021, es una plataforma digital editada por la Universidad Nacional Autónoma de México, Ciudad Universitaria, Alcaldía Coyoacán, C.P. 04510, Ciudad de México, a través del Instituto de Investigaciones Sociales, Circuito Mario de la Cueva s/n, Ciudad Universitaria, Col. Copilco, Alcaldía Coyoacán, C.P. 04510, Ciudad de México, Tel. 56227400 ext. 280, http://pluriversodigital.unam.mx/, pluriversodigital@gmail.com, Responsable académica: Natividad Gutiérrez Chong. Certificado de Reserva de Derechos En Trámite. Responsable de la última actualización, Instituto de Investigaciones Sociales, Circuito Mario de la Cueva s/n, Ciudad Universitaria, Col. Copilco, Alcaldía Coyoacán, C.P. 04510, Ciudad de México, fecha de la última modificación, 08 de julio de 2021.
+          </p>
+          <p className="font-medium text-lg text-gray-700 md:text-sm md:text-justify md:mx-2">
+            El contenido disponible es responsabilidad de los autores y no refleja el punto de vista de del Responsable académico o de la UNAM. Se autoriza la reproducción total o parcial de los textos aquí publicados siempre y cuando se cite la fuente completa y la dirección electrónica de la publicación.
+          </p>
           <div className="flex justify-center md:mb-5">
             <div className="w-60 mx-10 transition duration-500 ease-in-out transform hover:rotate-360">
               <img className="w-full rounded-lg" src="/images/home/unam.svg" alt="Logo UNAM" />

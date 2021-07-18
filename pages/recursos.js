@@ -2,6 +2,7 @@ import Head from 'next/head'
 import etno from '../data/recursos.json'
 
 export default function recursos() {
+
   return (
     <>
       <Head>

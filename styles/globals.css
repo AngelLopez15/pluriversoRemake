@@ -61,6 +61,10 @@ body {
   background-attachment: fixed;
 }
 
+.fondo-obcuro {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* HAMBURGER MENU */
 .toggle-menu-icon {
   height: 50px;
