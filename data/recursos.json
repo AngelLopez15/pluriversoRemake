@@ -3,192 +3,144 @@
     "id": "1",
     "nombre": "Calle madero",
     "formato": "Aida Sierra Romero, Michelle Zapata Medina, Patricia Labra, Juan Pablo Alcántara, Monserrat García García",
-    "enlace": ""
+    "enlace": "/doc/calleMadero.pdf"
   },
   {
     "id": "2",
     "nombre": "Mariachis",
     "formato": "Orlando Reyes Hernández, Priscilla Andrea Martínez Duarte, Ana Laura Salgado Lázaro, Jessica Velázquez Medina",
-    "enlace": ""
+    "enlace": "/doc/mariachis.pdf"  
   },
   {
     "id": "3",
     "nombre": "El rap y la Diversidad Cultural",
     "formato": "María Fernanda Avendaño, Mariana Magallanes, Mariana Morales",
-    "enlace": ""
+    "enlace": "/doc/rap.pdf"
   },
   {
     "id": "4",
     "nombre": "Regina",
     "formato": "Pérez Cruz Ana Ximena, Rentería Torres Julián Imá Kher",
-    "enlace": ""
+    "enlace": "/doc/regina.pdf"
   },
   {
     "id": "5",
     "nombre": "Teotihuacán",
     "formato": "Dávila Gutiérrez Xounely Chandel, Gutiérrez Romero Regina Isabel, Islas Álvarez Jazmín, López Gálvez Susana",
-    "enlace": ""
+    "enlace": "/doc/teotihuacan.pdf"
   },
   {
     "id": "6",
     "nombre": "La importancia de la diversidad",
     "formato": "Antezana Bosques Valeria, Cruz Reyes Valeria Beatriz, Durán Valis María Gabriela, García Ramírez Claudia Minerva, Palafox Maximiliano Mónica",
-    "enlace": ""
+    "enlace": "/doc/diversidad.pdf"
   },
   {
     "id": "7",
     "nombre": "Comparación de la percepción de la comida mexicana según el ámbito institucional gastronómico y el conocimiento familiar en la cocina",
     "formato": "Arciniega Sánchez Nahela Sofía, Martínez Ixta Daniela Ivette, Olivos Silva Aileen, Paulsen García Alejandra.",
-    "enlace": ""
+    "enlace": "/doc/comidaMexicana.pdf"
   },
   {
     "id": "8",
     "nombre": "Comunidad tzetzal de Santo Tomás",
     "formato": "Carmen Martos Borja",
-    "enlace": ""
+    "enlace": "/doc/comunidadTzetzal.pdf"
   },
   {
     "id": "9",
     "nombre": "Creación y gestión de espacios interseccionales por jóvenes. El caso de la Brigada de Diversidad Sexual",
     "formato": "Alexa Correa Gutiérrez, Brenda Leticia Mondragón Pozas, Laura Paola Morales López, Sofía Bethel Ortega Montero, Glenda Valentín Robles.",
-    "enlace": ""
+    "enlace": "/doc/espaciosInterseccionales.pdf"
   },
   {
     "id": "10",
     "nombre": "Detrás de la botarga y el disfraz “Retrato del trabajo informal de las botargas de Madero”",
     "formato": "Camacho Hernandez Lisset, Martínez Martínez Mónica Cuatlicue, Velázquez Núñez Ana Karen.",
-    "enlace": ""
+    "enlace": "/doc/botarga.pdf"
   },
   {
     "id": "11",
     "nombre": "Estudiantes pertenecientes al Programa Universitario de Estudios de la Diversidad Cultural Interculturalidad (PUIC)",
     "formato": "Aranda Mendoza Vianca Banessa, García Aldana Laura, López Badillo Dulce Lizzeth, Ortiz Osornio Yolanda Lizeth.",
-    "enlace": ""
+    "enlace": "/doc/estudiantes.pdf"
   },
   {
     "id": "12",
     "nombre": "Imaginario indígena en los usuarios de Oasis Coyoacán",
     "formato": "Alvarado Vázquez Rodrigo, Chávez Juárez Diana Belén, Cisneros Mondragón Tania, Ramírez Islas María Fernanda.",
-    "enlace": ""
+    "enlace": "/doc/imaginario.pdf"
   },
   {
     "id": "13",
     "nombre": "La basilica de Guadalupe como lugar multicultural",
     "formato": "Carla R. Echeverría Gutiérrez, Elizabeth Tina Pérez Guerrero, Leslie B. Osorio Alemán, Samara Ibáñez Juárez.",
-    "enlace": ""
+    "enlace": "/doc/basilica.pdf"
   },
   {
     "id": "14",
     "nombre": "La celebración del jueves de 4 barrios",
     "formato": "Víctor Rosas Bastida",
-    "enlace": ""
+    "enlace": "/doc/celebracion.pdf"
   },
   {
     "id": "15",
     "nombre": "La comida china, o ¿la pizza mexicana es una comida intercultural",
     "formato": "Axel Andree Pérez Nava",
-    "enlace": ""
+    "enlace": "/doc/comida.pdf"
   },
   {
     "id": "16",
     "nombre": "La flor más bella del ejido",
     "formato": "García Camacho Elianne, González Luna Esperanza, Ortiz López Jimena Guadalupe.",
-    "enlace": ""
+    "enlace": "/doc/laFlor.pdf"
   },
   {
     "id": "17",
     "nombre": "La interseccionalidad diferenciada a través del restaurante Sanborns de los azulejos",
     "formato": "Alcocer Carrillo David Augusto, Fragoso López Selene, García Jiménez Ricardo Iván.",
-    "enlace": ""
+    "enlace": "/doc/restaurante.pdf"
   },
   {
     "id": "18",
     "nombre": "La presencia de Oaxaca en México",
     "formato": "Estado y Diversidad Cultural, González Gómez Monserrat, Ramos Gutiérrez Juan de Jesús, Villanueva Salgado Ameyalli.",
-    "enlace": ""
+    "enlace": "/doc/oaxaca.pdf"
   },
   {
     "id": "19",
     "nombre": "Las nociones étnico-raciales de la feligresía en el contexto multicultural",
     "formato": "Angel Efraín Gallardo Sánchez",
-    "enlace": ""
+    "enlace": "/doc/nociones.pdf"
   },
   {
     "id": "20",
     "nombre": "Los estereotipos como una tradición entre las Facultades de Medicina, Filosofía y Letras e Ingeniería",
     "formato": "Amairani Martínez Velázquez, Kimberly Cadenas Reyes.",
-    "enlace": ""
+    "enlace": "/doc/estereotipos.pdf"
   },
   {
     "id": "21",
     "nombre": "Mercado de Artesanías en Coyoacán",
     "formato": "Campos Vega Mariana, Rivero Hernández Rebeca.",
-    "enlace": ""
+    "enlace": "/doc/mercadoCoyoacan.pdf"
   },
   {
     "id": "22",
     "nombre": "Música y memoria. El oficio de los organilleros, una tradición que peligra",
     "formato": "Esquivel Escobar Gabriela",
-    "enlace": ""
+    "enlace": "/doc/musicaMemoria.pdf"
   },
   {
     "id": "23",
     "nombre": "Personas en situacion de calle",
     "formato": "Carla Morales del Valle, Ana Paula Huerta Contreras, Nadia Pamela Gutiérrez Díaz, Iza Mariel Castro Calzada.",
-    "enlace": ""
+    "enlace": "/doc/personasCalle.pdf"
   },
   {
     "id": "24",
     "nombre": "Tianguis Cultural del Chopo",
     "formato": "Castrejón Román Perla Berenice, González Romero Mariel, Hernández Corrales Mariela Rafaela.",
-    "enlace": ""
-  },
-  {
-    "id": "25",
-    "nombre": "El mercado de artesanías 'La Ciudadela'",
-    "formato": "Carrillo Estrada Adriana, Cruz Lara Karina, Flores Sánchez Kaynicte Marysol, Torres Rojas Johanna Crystal, Velasco López Brenda.",
-    "enlace": ""
-  },
-  {
-    "id": "26",
-    "nombre": "Casas Vogue en la Ciudad de México",
-    "formato": "García Cruz Lorena Guadalupe, González Flores Natalia Montserrat, López Martínez Aníbal Isaac.",
-    "enlace": ""
-  },
-  {
-    "id": "27",
-    "nombre": "MEMES: Discursos de protesta y reforzamiento de identidades",
-    "formato": "Acevedo Mariles Maira, Medina Mendoza Atzín Kenia.",
-    "enlace": ""
-  },
-  {
-    "id": "28",
-    "nombre": "Discurso del Estado- Nación en el Museo Nacional de Antropología (MNA)",
-    "formato": "Campillo Godínez Johanna Ivonne, García Cerón María Fernanda.",
-    "enlace": ""
-  },
-  {
-    "id": "29",
-    "nombre": "Símbolos Nacionalistas en tres pulquerías de la Ciudad de México",
-    "formato": "Campos Escárpita Elías Uriel, Jorge Mario Landeros Guevara, Laura Carolina Ramírez Ramos.",
-    "enlace": ""
-  },
-  {
-    "id": "30",
-    "nombre": "Casa Tochan, una muestra de la situación migratoria en México. Una mirada al racismo y xenofobia hacia migrantes centroamericano",
-    "formato": "Maciel Vega Jessica, Moreno Mora Miriam.",
-    "enlace": ""
-  },
-  {
-    "id": "31",
-    "nombre": "La Basílica de Guadalupe",
-    "formato": "De la Barrera Guevara María Fernanda",
-    "enlace": ""
-  },
-  {
-    "id": "32",
-    "nombre": "¿En dónde juegan los niños?",
-    "formato": "Abarca Cupich Amaury Grehe.",
-    "enlace": ""
+    "enlace": "/doc/Tianguis.pdf"
   }
 ]

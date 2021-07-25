@@ -58,10 +58,10 @@ export default function Footer() {
           <p className="font-medium text-lg text-gray-700">©PAPIME Clave PE404617. Todos los derechos reservados. {onlyYear}</p>
         </div>
         <div>
-          <p className="font-medium text-lg text-gray-700">Manual de Usuario</p>
+          <a target="_blank" rel="noopener noreferrer" href="/doc/ManualUsuario.pdf" className="font-medium text-lg text-gray-700">Manual de Usuario</a>
         </div>
         <div>
-          <p className="font-medium text-lg text-gray-700">Términos y condiciones</p>
+          <a target="_blank" rel="noopener noreferrer" href="/doc/TerminosPluriversoDigital.pdf" className="font-medium text-lg text-gray-700">Términos y condiciones</a>
         </div>
       </div>
     </footer>

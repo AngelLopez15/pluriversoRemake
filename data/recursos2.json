@@ -1,0 +1,50 @@
+[
+  {
+    "id": "25",
+    "nombre": "El mercado de artesanías 'La Ciudadela'",
+    "formato": "Carrillo Estrada Adriana, Cruz Lara Karina, Flores Sánchez Kaynicte Marysol, Torres Rojas Johanna Crystal, Velasco López Brenda.",
+    "enlace": "/doc/mercadoCiudadela.pdf"
+  },
+  {
+    "id": "26",
+    "nombre": "Casas Vogue en la Ciudad de México",
+    "formato": "García Cruz Lorena Guadalupe, González Flores Natalia Montserrat, López Martínez Aníbal Isaac.",
+    "enlace": "/doc/casasVogue.pdf"
+  },
+  {
+    "id": "27",
+    "nombre": "MEMES: Discursos de protesta y reforzamiento de identidades",
+    "formato": "Acevedo Mariles Maira, Medina Mendoza Atzín Kenia.",
+    "enlace": "/doc/memes.pdf"
+  },
+  {
+    "id": "28",
+    "nombre": "Discurso del Estado-Nación en el Museo Nacional de Antropología (MNA)",
+    "formato": "Campillo Godínez Johanna Ivonne, García Cerón María Fernanda.",
+    "enlace": "/doc/discurso.pdf"
+  },
+  {
+    "id": "29",
+    "nombre": "Símbolos Nacionalistas en tres pulquerías de la Ciudad de México",
+    "formato": "Campos Escárpita Elías Uriel, Jorge Mario Landeros Guevara, Laura Carolina Ramírez Ramos.",
+    "enlace": "/doc/simbolos.pdf"
+  },
+  {
+    "id": "30",
+    "nombre": "Casa Tochan, una muestra de la situación migratoria en México. Una mirada al racismo y xenofobia hacia migrantes centroamericano",
+    "formato": "Maciel Vega Jessica, Moreno Mora Miriam.",
+    "enlace": "/doc/CasaTochan.pdf"
+  },
+  {
+    "id": "31",
+    "nombre": "La Basílica de Guadalupe",
+    "formato": "De la Barrera Guevara María Fernanda",
+    "enlace": "/doc/laBasilica.pdf"
+  },
+  {
+    "id": "32",
+    "nombre": "¿En dónde juegan los niños?",
+    "formato": "Abarca Cupich Amaury Grehe.",
+    "enlace": "/doc/enDonde.pdf"
+  }
+]

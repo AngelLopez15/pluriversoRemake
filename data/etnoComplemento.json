@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "nombre": "Inclusión en el cine… ¿forzada o no",
+    "formato": "Pablo Emanuel Cabello González",
+    "enlace": "/doc/inclusionCine.pdf"
+  },
+  {
+    "id": "2",
+    "nombre": "La mujer a la cocina, pero los tacos… ¿cosa de hombres?",
+    "formato": "Dayanary Verónica Cervantes Sánchez",
+    "enlace": "/doc/mujercocina.pdf"
+  },
+  {
+    "id": "3",
+    "nombre": "Una nueva facultad. Los nuevos espacios educativos y sus posibles repercusiones en nuestros procesos de aprendizaje",
+    "formato": "Dinora Ashlie Orozco Ramírez",
+    "enlace": "/doc/nuevafacultad.pdf"
+  },
+  {
+    "id": "4",
+    "nombre": "Videojuegos, identidad y comunidad: unidas en contextos virtuales",
+    "formato": "Mariana Elizabeth Zúñiga Flores",
+    "enlace": "/doc/videojuegos.pdf"
+  },
+  {
+    "id": "5",
+    "nombre": "La alimentación desde la pandemia",
+    "formato": "Geraldine Espinosa Lugo",
+    "enlace": "/doc/alimentacion.pdf"
+  },
+  {
+    "id": "6",
+    "nombre": "Los Animales y su compañía",
+    "formato": "Ilse Karina Enríquez González",
+    "enlace": "/doc/animales.pdf"
+  },
+  {
+    "id": "7",
+    "nombre": "Habitar la morenidad en lo virtual",
+    "formato": "Jazmín Donají Soto Bojórquez",
+    "enlace": "/doc/morenidad.pdf"
+  },
+  {
+    "id": "8",
+    "nombre": "Bazares de internet: como una resistencia económica",
+    "formato": "Ana Laura Hernández Morales",
+    "enlace": "/doc/bazaresInternet.pdf"
+  },
+  {
+    "id": "9",
+    "nombre": "La transformación de las relaciones con los animales de compañía durante la pandemia",
+    "formato": "María Sofía Torres Ruiz",
+    "enlace": "/doc/transformación.pdf"
+  }
+]

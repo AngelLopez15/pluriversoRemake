@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import etno from '../data/recursos.json'
+import etno2 from '../data/recursos2.json'
+import etnoComplemento from '../data/etnoComplemento.json'
 
 export default function recursos() {
 
@@ -52,6 +54,55 @@ export default function recursos() {
           </table>
         </section>
         <section className="md:py-5">
+          <h2>Etnografías de "Estado y diversidad cultural" 4° semestre 2019-2</h2>
+          <table className="table-fixed border-collapse border border-green-800">
+            <thead>
+              <tr>
+                <th className="w-2/5 border border-green-600">Título etnografía</th>
+                <th className="w-2/5 border border-green-600">Formato</th>
+                <th className="w-1/5 border border-green-600">Descarga</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                etno2.map((item) => (
+                  <tr key={item.id}>
+                    <td className="border border-green-600 text-justify">{item.nombre}</td>
+                    <td className="border border-green-600 text-center">{item.formato}</td>
+                    <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href={item.enlace}>Descargar</a></td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+        </section>
+        <section className="md:py-5">
+          <h2>Etnografías de “Estado y Diversidad Cultural en México”, semestre 2021-2</h2>
+          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">En el contexto de la pandemia de COVID declarada en marzo de 2020, la UNAM abrió la educación en línea a través de sus aulas virtuales.</p>
+          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Estamos muy contentos de incluir las etnografías solicitadas en los semestres 2 de los años 2020 y 2021 porque incluyen una novedad: las y los alumnos presentaron etnografías con temas relacionados a la pandemia.</p>
+          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Nuevamente las etnografías fueron asombrosas, pues ahí plasmaron diversas experiencias de vida cotidiana, de relaciones familiares, de solidaridad, de nostalgia. De tal manera que hemos ampliado la colección de estas etnografías con temas muy originales, y sin precedente, por mencionar algunos: el abandono de mascotas, la experiencia del uso de la Internet en adultos mayores, los cambios en la alimentación, los nuevos sonidos de las calles, las nuevas actividades de estudiantes para obtener ingresos, la expansión de los videojuegos a mujeres, entre muchos más. También el mundo virtual ha sido propicio para la creatividad y la innovación, por ejemplo, la reflexión que amerita la cámara digital y la realidad o irrealidad del color de piel, o la confección del bordado, tradicionalmente en tela e hilo, a una textura digital.</p>
+          <table className="table-fixed border-collapse border border-green-800">
+            <thead>
+              <tr>
+                <th className="w-2/5 border border-green-600">Título etnografía</th>
+                <th className="w-2/5 border border-green-600">Formato</th>
+                <th className="w-1/5 border border-green-600">Descarga</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                etnoComplemento.map((item) => (
+                  <tr key={item.id}>
+                    <td className="border border-green-600 text-justify">{item.nombre}</td>
+                    <td className="border border-green-600 text-center">{item.formato}</td>
+                    <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href={item.enlace}>Descargar</a></td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+        </section>
+        <section className="md:py-5">
           <h2>Presentaciones</h2>
           <table className="table-fixed border-collapse border border-green-800">
             <thead>
@@ -65,12 +116,12 @@ export default function recursos() {
               <tr>
                 <td className="border border-green-600 text-justify">Cultura y etnicidad en el siglo del reconocimiento</td>
                 <td className="border border-green-600 text-center">Gutiérrez Chong Natividad</td>
-                <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href="">Descargar</a></td>
+                <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href="/doc/cultura-etnicidad.pdf">Descargar</a></td>
               </tr>
               <tr>
                 <td className="border border-green-600 text-justify">La influencia de la etnicidad en la identidad nacional de México y en la unidad del Estado chino</td>
                 <td className="border border-green-600 text-center">Gutiérrez Chong Natividad</td>
-                <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href="">Descargar</a></td>
+                <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href="/doc/mex_china.pdf">Descargar</a></td>
               </tr>
             </tbody>
           </table>
