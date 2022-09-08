@@ -86,20 +86,6 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            <div className="flex justify-center items-center w-full h-80 bg-blue-500 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-y-110 hover:bg-secondary hover:shadow-2xl md:h-40">
-              <Link href="/ejes/interculturalidad">
-                <a>
-                  <h3 className="text-white text-3xl font-extrabold">Interculturalidad</h3>
-                </a>
-              </Link>
-            </div>
-            <div className="flex justify-center items-center w-full h-80 bg-green-500 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-y-110 hover:bg-secondary hover:shadow-2xl md:h-40">
-              <Link href="/ejes/interculturalismo">
-                <a>
-                  <h3 className="text-white text-3xl font-extrabold">Interculturalismo</h3>
-                </a>
-              </Link>
-            </div>
             <div className="flex justify-center items-center w-full h-80 bg-yellow-500 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-y-110 hover:bg-secondary hover:shadow-2xl md:h-40">
               <Link href="/ejes/interseccionalidad">
                 <a>
@@ -107,10 +93,24 @@ export default function Home() {
                 </a>
               </Link>
             </div>
+            <div className="flex justify-center items-center w-full h-80 bg-blue-500 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-y-110 hover:bg-secondary hover:shadow-2xl md:h-40">
+              <Link href="/ejes/interculturalidad">
+                <a>
+                  <h3 className="text-white text-3xl font-extrabold">Interculturalidad</h3>
+                </a>
+              </Link>
+            </div>
             <div className="flex justify-center items-center w-full h-80 bg-pink-500 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-y-110 hover:bg-secondary hover:shadow-2xl md:h-40">
               <Link href="/ejes/multiculturalismo">
                 <a>
                   <h3 className="text-white text-3xl font-extrabold">Multiculturalismo</h3>
+                </a>
+              </Link>
+            </div>
+            <div className="flex justify-center items-center w-full h-80 bg-green-500 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-y-110 hover:bg-secondary hover:shadow-2xl md:h-40">
+              <Link href="/ejes/interculturalismo">
+                <a>
+                  <h3 className="text-white text-3xl font-extrabold">Interculturalismo</h3>
                 </a>
               </Link>
             </div>

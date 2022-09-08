@@ -35,14 +35,14 @@ export default function multiculturalismo() {
           <div className="mb-4">
             <p className="font-medium text-2xl text-gray-700 text-center">Decargar mapa mental</p>
             <div className="flex justify-center md:flex-wrap">
-              <a target="_blank" rel="noopener noreferrer" href="/mapas/identidad.jpg" className="bg-red-500 py-4 px-20 mr-2 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-blue-500 sm:px-16 md:mr-0 md:mb-2">como PDF</a>
-              <a target="_blank" rel="noopener noreferrer" href="/mapas/identidad.pdf" className="bg-blue-400 py-4 px-20 ml-2 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-green-500 sm:px-12 md:ml-0">como imagen</a>
+              <a target="_blank" rel="noopener noreferrer" href="/mapas/multiculturalismo.jpg" className="bg-red-500 py-4 px-20 mr-2 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-blue-500 sm:px-16 md:mr-0 md:mb-2">como PDF</a>
+              <a target="_blank" rel="noopener noreferrer" href="/mapas/Multiculturalismo.pdf" className="bg-blue-400 py-4 px-20 ml-2 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-green-500 sm:px-12 md:ml-0">como imagen</a>
             </div>
           </div>
           <div className="mb-4">
             <p className="font-medium text-2xl text-gray-700 text-center">Descargar nota metodológica</p>
             <div className="flex justify-center">
-              <a target="_blank" rel="noopener noreferrer" href="/notas/notaIdentidad.pdf" className="bg-green-400 py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 sm:px-16">Descargar</a>
+              <a target="_blank" rel="noopener noreferrer" href="/notas/notaMulticulturalismo.pdf" className="bg-green-400 py-4 px-20 rounded-md shadow-lg text-white text-xl font-medium transition duration-300 ease-in-out hover:bg-yellow-300 sm:px-16">Descargar</a>
             </div>
           </div>
           <div className="mb-4">

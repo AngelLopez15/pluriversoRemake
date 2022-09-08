@@ -20,9 +20,9 @@ export default function recursos() {
       <main className="mx-12 md:mx-2">
         <section className="md:py-5">
           <h2>Material de apoyo</h2>
-          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Con el propósito de complementar los mapas conceptuales y descripciones de Mariana, Montserrat y Miguel, Natividad, comparte tres presentaciones que utiliza en la impartición de la asignatura “Estado y Diversidad Cultural” Cuarto Semestre.</p>
-          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Temarios de otros profesores de la Licenciatura en Gestión y Desarrollo Intercultural.</p>
-          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">El espacio esta abierto para incluir los temarios de más profesores de la carrera.</p>
+          <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">
+            Con el propósito de complementar los mapas conceptuales de los ejes, se disponen aquí presentaciones y etnografias elaboradas por diversos estudiantes en el curso "Estado y diversidad cultural", impartida en la carrera de Desarrollo y Gestión Interculturales en la Facultad de Filosofía y Letras de la UNAM.
+          </p>
         </section>
         <section className="md:py-5">
           <h2>Etnografías</h2>
@@ -31,22 +31,22 @@ export default function recursos() {
           <p className="font-medium text-lg text-gray-700 md:text-base md:text-justify">Desde 2011, he llevado a cabo esta actividad con las distintas generaciones. No están aquí las etnografías de los primeros años después de 2011. Miguel que ha sido mi asistente de profesor en los últimos años, ha tenido una labor muy valiosa para recopilar las Etnografías y organizar entre los alumnos la presentación en clase. De tal manera que ahora ya estamos mejor organizados para enriquecer la colección, pues Miguel ha llevado un seguimiento de las Etnografías y sus autores, por lo general, se presentan en equipo, pero también hay registros individuales. Hemos convertido las etnografías a pdf y algunas tienen ilustraciones.</p>
         </section>
         <section className="md:py-5">
-          <h2>Recursos</h2>
+          <h2 className='hidden'>Recursos</h2>
           <table className="table-fixed border-collapse border border-green-800">
             <thead>
               <tr>
-                <th className="w-2/5 border border-green-600">Título etnografía</th>
-                <th className="w-2/5 border border-green-600">Formato</th>
-                <th className="w-1/5 border border-green-600">Descarga</th>
+                <th className="w-2/5 border border-green-600 p-2">Título etnografía</th>
+                <th className="w-2/5 border border-green-600 p-2">Formato</th>
+                <th className="w-1/5 border border-green-600 p-2">Descarga</th>
               </tr>
             </thead>
             <tbody>
               {
                 etno.map((item) => (
                   <tr key={item.id}>
-                    <td className="border border-green-600 text-justify">{item.nombre}</td>
-                    <td className="border border-green-600 text-center">{item.formato}</td>
-                    <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href={item.enlace}>Descargar</a></td>
+                    <td className="border border-green-600 text-justify p-2">{item.nombre}</td>
+                    <td className="border border-green-600 text-center p-2">{item.formato}</td>
+                    <td className="border border-green-600 text-center p-2"><a className='hover:text-subtitle' target="_blank" rel="noopener noreferrer" href={item.enlace}>Descargar</a></td>
                   </tr>
                 ))
               }
@@ -58,18 +58,18 @@ export default function recursos() {
           <table className="table-fixed border-collapse border border-green-800">
             <thead>
               <tr>
-                <th className="w-2/5 border border-green-600">Título etnografía</th>
-                <th className="w-2/5 border border-green-600">Formato</th>
-                <th className="w-1/5 border border-green-600">Descarga</th>
+                <th className="w-2/5 border border-green-600 p-2">Título etnografía</th>
+                <th className="w-2/5 border border-green-600 p-2">Formato</th>
+                <th className="w-1/5 border border-green-600 p-2">Descarga</th>
               </tr>
             </thead>
             <tbody>
               {
                 etno2.map((item) => (
                   <tr key={item.id}>
-                    <td className="border border-green-600 text-justify">{item.nombre}</td>
-                    <td className="border border-green-600 text-center">{item.formato}</td>
-                    <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href={item.enlace}>Descargar</a></td>
+                    <td className="border border-green-600 text-justify p-2">{item.nombre}</td>
+                    <td className="border border-green-600 text-center p-2">{item.formato}</td>
+                    <td className="border border-green-600 text-center p-2"><a className='hover:text-subtitle' target="_blank" rel="noopener noreferrer" href={item.enlace}>Descargar</a></td>
                   </tr>
                 ))
               }
@@ -84,18 +84,18 @@ export default function recursos() {
           <table className="table-fixed border-collapse border border-green-800">
             <thead>
               <tr>
-                <th className="w-2/5 border border-green-600">Título etnografía</th>
-                <th className="w-2/5 border border-green-600">Formato</th>
-                <th className="w-1/5 border border-green-600">Descarga</th>
+                <th className="w-2/5 border border-green-600 p-2">Título etnografía</th>
+                <th className="w-2/5 border border-green-600 p-2">Formato</th>
+                <th className="w-1/5 border border-green-600 p-2">Descarga</th>
               </tr>
             </thead>
             <tbody>
               {
                 etnoComplemento.map((item) => (
                   <tr key={item.id}>
-                    <td className="border border-green-600 text-justify">{item.nombre}</td>
-                    <td className="border border-green-600 text-center">{item.formato}</td>
-                    <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href={item.enlace}>Descargar</a></td>
+                    <td className="border border-green-600 text-justify p-2">{item.nombre}</td>
+                    <td className="border border-green-600 text-center p-2">{item.formato}</td>
+                    <td className="border border-green-600 text-center p-2"><a className='hover:text-subtitle' target="_blank" rel="noopener noreferrer" href={item.enlace}>Descargar</a></td>
                   </tr>
                 ))
               }
@@ -107,21 +107,21 @@ export default function recursos() {
           <table className="table-fixed border-collapse border border-green-800">
             <thead>
               <tr>
-                <th className="w-2/5 border border-green-600">Título</th>
-                <th className="w-2/5 border border-green-600">Autor(es)</th>
-                <th className="w-1/5 border border-green-600">Descarga</th>
+                <th className="w-2/5 border border-green-600 p-2">Título</th>
+                <th className="w-2/5 border border-green-600 p-2">Autor(es)</th>
+                <th className="w-1/5 border border-green-600 p-2">Descarga</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="border border-green-600 text-justify">Cultura y etnicidad en el siglo del reconocimiento</td>
-                <td className="border border-green-600 text-center">Gutiérrez Chong Natividad</td>
-                <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href="/doc/cultura-etnicidad.pdf">Descargar</a></td>
+                <td className="border border-green-600 text-justify p-2">Cultura y etnicidad en el siglo del reconocimiento</td>
+                <td className="border border-green-600 text-center p-2">Gutiérrez Chong Natividad</td>
+                <td className="border border-green-600 text-center p-2"><a className='hover:text-subtitle' target="_blank" rel="noopener noreferrer" href="/doc/cultura-etnicidad.pdf">Descargar</a></td>
               </tr>
               <tr>
-                <td className="border border-green-600 text-justify">La influencia de la etnicidad en la identidad nacional de México y en la unidad del Estado chino</td>
-                <td className="border border-green-600 text-center">Gutiérrez Chong Natividad</td>
-                <td className="border border-green-600 text-center"><a target="_blank" rel="noopener noreferrer" href="/doc/mex_china.pdf">Descargar</a></td>
+                <td className="border border-green-600 text-justify p-2">La influencia de la etnicidad en la identidad nacional de México y en la unidad del Estado chino</td>
+                <td className="border border-green-600 text-center p-2">Gutiérrez Chong Natividad</td>
+                <td className="border border-green-600 text-center p-2"><a className='hover:text-subtitle' target="_blank" rel="noopener noreferrer" href="/doc/mex_china.pdf">Descargar</a></td>
               </tr>
             </tbody>
           </table>

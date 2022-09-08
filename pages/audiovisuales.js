@@ -46,18 +46,6 @@ export default function audiovisuales() {
       titulo: 'Dr. Gilberto Giménez',
       link: '286160963',
     },
-    {
-      id: '8',
-      imagen: '/images/portadas/Thumb_estudiosa.png',
-      titulo: 'Congreso Internacional de Estudios Afromexicanos',
-      link: '237013901',
-    },
-    {
-      id: '9',
-      imagen: '/images/portadas/aniv.png',
-      titulo: '10° Aniversario de la Licenciatura en Desarrollo y Gestión Interculturales',
-      link: '312660416',
-    },
   ]
 
   const videoExperiencias = [
